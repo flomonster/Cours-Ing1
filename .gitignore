@@ -1,0 +1,6 @@
+# Editors
+*.swp
+*.~
+
+# Objs
+*.pdf
