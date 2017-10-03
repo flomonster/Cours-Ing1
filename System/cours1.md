@@ -1,6 +1,7 @@
 # System
 
 Numero: 1
+Prof: Laskar Gabriel
 Date: 3 Octobre 2017
 
 ## OS
@@ -75,9 +76,9 @@ Pour minimiser les maj du kernel,l'un des principes de base est:
 * Le format est dependant du system
 * L'utilisation de *read* est une mauvaise idee car ca implique de lseek enormement.
 * On pourrait utiliser *preadv*. Car il prend un offset.
-* On prefere utiliser *mmap*. Va charger le fichier en memoire de maniere inteligente.
+* On prefere utiliser *mmap*. Va charger le fichier en memoire de maniere intelligente.
 
-### Exemple de mmap
+### Example de mmap
 
 * Utilise xxd pour lire un fichier binaire
 * Utiliser strace pour verifier que l'on fait pas de la merde
@@ -104,7 +105,7 @@ int main(int argc, char **argv)
   if (ptr == MAP_FAILED)
      err(1, "fail");
 
-  // Plus besoin de fd 
+  // Plus besoin de fd
   if (close(fd) < 0)
      err(1, "fail");
 
@@ -117,5 +118,19 @@ int main(int argc, char **argv)
      err (1, "fail");
 
   return 0;
+}
+```
+
+### Example struct shell
+
+```C
+static struct
+{
+  const char *cmd;
+  int (*func)();
+  const char *usage;
+} shell_cmds[] = {
+  { "help", shell_help, "display help"},
+  { "info", shell_info, "display info"}
 }
 ```
