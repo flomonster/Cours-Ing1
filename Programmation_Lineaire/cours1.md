@@ -24,23 +24,29 @@ On pourra trouver des exercices page 120 du livret de cours.
 
 Example:
 
+```
 A = | 3 | -2 |
     | 4 |  5 |
+```
 
-|A| = `3 * 5 - 4 * -2` = `23`
+`|A| = 3 * 5 - 4 * -2 = 23`
 
 Factorisation:
 
+```
 | k |  k | = k * | 1 |  1 |
 | 4 | 2k |       | 4 | 2k |
+```
 
 Un facteur commun dans une ligne (ou dans une colonne), on peut
 diviser toute la ligne / colonne par le facteur, mis a l'exterieur.
 
 De meme:
 
+```
 | k |  k | = k * | k | 1 |
 | 4 | 2k |       | 4 | 2 |
+```
 
 #### Ordre n (x > 2)
 
@@ -49,9 +55,11 @@ ramener a un determinent d'ordre `n - 1`.
 
 Exemple:
 
+```
 A = | 2 |  0 | -1 |
     | 3 |  0 |  2 |
     | 4 | -3 |  7 |
+```
 
 On developpe / 1ere colonne.
 
