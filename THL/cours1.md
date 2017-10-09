@@ -7,6 +7,7 @@ Date: 9 Octobre 2017
 ## Introduction
 
 [Site du prof](http://jo.fabrizio.free.fr)
+
 [Lien du cours](https://www.lrde.epita.fr/wiki/Courses/THL)
 
 On va parler de la partie de lecture de la compilation.
@@ -64,4 +65,4 @@ Donc un **langage recursif** est un **langage recursivement enumerables**.
 * `.`: Concatenation
   * {E}.*L* = *L*.{E} = *L* (`{E}` est l'element vide)
   * ∅.*L* = ∅
-* `\*`: Etoile
+* `*`: Etoile
