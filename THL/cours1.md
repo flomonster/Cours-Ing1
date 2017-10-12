@@ -55,7 +55,7 @@ Donc un **langage recursif** est un **langage recursivement enumerables**.
   * `a.E = E.a = a` (`E` est l'element neutre)
   * `|a.b| = |a| + |b|`
   * `(a.b).c = a.(b.c)` (Associative)
-  * `a^n =  { E si n = 0; a.a.a.a....a }`
+  * `a^^n^^ =  { E si n = 0; a.a.a.a....a }`
 
 ### Sur les langages
 
@@ -65,4 +65,4 @@ Donc un **langage recursif** est un **langage recursivement enumerables**.
 * `.`: Concatenation
   * {E}.*L* = *L*.{E} = *L* (`{E}` est l'element vide)
   * ∅.*L* = ∅
-* `*`: Etoile
+* `*`: Etoile de Kleene

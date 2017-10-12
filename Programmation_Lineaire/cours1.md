@@ -132,7 +132,7 @@ A = |  2 |  1 | -3 |  4 |
     |  3 | -2 |  5 |  2 |
 ```
 
-Cofacteur a_23 (la position du `7`):
+Cofacteur a~23~(la position du `7`):
 
 ```
   | 2 |  1 |  4 |
@@ -154,9 +154,9 @@ cof A = | ? | ? | ? | ? |
 
 ### Inverse d'une matrice
 
-C'est la matrice `A^-1`:
+C'est la matrice `A^-1^`:
 
-`A * A^-1 = A^-1 * A = I`
+A * A^-1^ = A^-1^ * A = I
 
 `I` est la matrice identite soit:
 ```
@@ -167,7 +167,7 @@ A = | 1 | 0 | 0 |
 
 Pour calculer la matrice inverse on va utiliser la matrice des cofacteurs.
 
-`A^-1 = transposition (cof A) / det A`
+A^-1^ = transposition (cof A) / det A
 La transposition est lorsqu'on echange les *colonnes* avec les *lignes*.
 
 Exercice:
@@ -178,17 +178,19 @@ A = | 1 | 2 | 3 |
     | 1 | 5 | 7 |
 ```
 
-|A| = 2 != 0 donc `A^-1` **existe**
+|A| = 2 != 0 donc A^-1^ **existe**
 
 ```
 cof A = |  1 | -10 |  7 |
         |  1 |  4  | -3 |
         | -1 |  2  | -1 |
 ```
+
+A^-1^ =
 ```
-A^-1 = | 1/2 |  1/2 | -1/2 |
-       |  -5 |   2  |   1  |
-       | 7/2 | -3/2 | -1/2 |
+| 1/2 |  1/2 | -1/2 |
+|  -5 |   2  |   1  |
+| 7/2 | -3/2 | -1/2 |
 ```
 
 ### Vecteurs independants / Vecteurs lies
