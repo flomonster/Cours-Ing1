@@ -110,14 +110,18 @@ $\displaystyle\sum_{k=i}^n |t_{ik}|^2 = \displaystyle\sum_{k=1}^i |t_{ki}|^2$
 
 * $i=1$ (1^er^ ligne)
 
-$|t_{11}|^2 + |t_{12}|^2+\hdots+|t_{1n}|^2=|t_{11}|^2
-\\\implies |t_{12}|^2+ \hdots + |t_{1n}|^2=0$
+$\begin{aligned}
+         &|t_{11}|^2 + |t_{12}|^2+\hdots+|t_{1n}|^2=|t_{11}|^2\\
+\implies &|t_{12}|^2+ \hdots + |t_{1n}|^2=0
+\end{aligned}$
 
 * $i=2$ (2^eme^ ligne)
 
-$|t_{22}|^2 + |t_{23}|^2+\hdots+|t_{2n}|^2=|t_{12}|^2 + |t_{12}|^2
-\\\implies |t_{23}|^2+ \hdots + |t_{2n}|^2=0
-\\\implies t_{23} = t_{24} = \hdots = t_{24} = 0$
+$\begin{aligned}
+        & |t_{22}|^2 + |t_{23}|^2+\hdots+|t_{2n}|^2=|t_{12}|^2 + |t_{12}|^2\\
+\implies& |t_{23}|^2+ \hdots + |t_{2n}|^2=0\\
+\implies& t_{23} = t_{24} = \hdots = t_{24} = 0
+\end{aligned}$
 
 On peut continuer, on va donc faire un raisonnement par recurence.
 
@@ -135,7 +139,8 @@ Hyp de recurence $\implies |t_{i+1 i+2}|^2 + \hdots + |t_{i+n}|^2 = 0
 
 Donc $T=D
   \begin{pmatrix}
-   ? & \hdots  & 0 \\
-   \vdots & \ddots  & \vdots \\
-   0 & \hdots & ?
+   ? & 0 & \hdots  & 0 \\
+   0 & ? & \hdots  & 0 \\
+   \vdots & \vdots & \ddots  & \vdots \\
+   0 & 0 & \hdots & ?
   \end{pmatrix}$
