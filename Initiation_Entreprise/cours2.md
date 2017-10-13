@@ -10,16 +10,16 @@ le changement de banque est proscris. En cas de découvert de 500euros lettre/ 5
 ### Bourse
 DON JONES(cac40 des US) indices boursier qui caractérise la forme boursière. Ex si croissance, indique la forme générale de la croissance des plus petites entreprises.
 
-### Entreprise 
-- creation de richesse : 
+### Entreprise
+- creation de richesse :
     - (valeur -> croissance valeur boursière de l'entreprise)
     - (activité production de matière première)
     - création de bien et de service
     - valeur ajouté -> différence entre cout d'une chose et prix de vente (hors frais fixe ex : impots, locaux, salaires, ...). si la valeur ajoutée est faible -> entreprise en difficulté.
-- repartition des richesse : 
+- repartition des richesse :
     - redistribue 90% de l'argent qu'elle gagne
     - au long terme elle redistribue 100% de l'argent qu'elle gagne
-- innovation 
+- innovation
     - on fait quelque chose de neuf
 
 Bien de consommation
@@ -41,9 +41,9 @@ Il se crée 500 milles entreprise par an. En 2017 20 mille moins que l'an dernie
 60 000 entreprise s'arrêtent tout les ans
 Il n'y a pas d'argent dans l'agriculture, il y a du capital
 
-- Industrie (inf agriculture) 244 milles entreprise 
+- Industrie (inf agriculture) 244 milles entreprise
 - Commerce (Auchan, boutique (epicerie du coin)) 1 M
-- Services 2 M 700 (artisans, infirmier et profession libérales, ...) beaucoup de clients, pas d'entraide 
+- Services 2 M 700 (artisans, infirmier et profession libérales, ...) beaucoup de clients, pas d'entraide
 - BTP (batiment) masse travail énorme. Très bon indicateur, "Quand le batiment va tout va". Quand le batiment s'arrete il licensie.
 
 ### Formes juridiques
@@ -56,14 +56,9 @@ Il n'y a pas d'argent dans l'agriculture, il y a du capital
 - SAS
     - SA responsabilité limité (EURL, SARL), la société est resposable et non le propriétaire
     - SA responsabilité illimité (SNC: société en nom collectif, SCI: sociétée de gestion immobilère, GIE: syndicat d'entreprise)
-- Entreprise publiques 
+- Entreprise publiques
 - Regies : RATP (Regie Autonome Transport Parisien)
 - Economie sociales solidarité (220 milles entreprises) inclut les mutuelles (719 en france), quand ont est mutualisé, on est adhérent -> on touche des dividende, reductions
 - Coopératives (2600 argicoles, 11 500 CUMA cooperative d'utilisation materiel agricole) SCOC(entrerprise normale ou le salarié détient une part il n'y a pas de chef 40salariés = 40 parts) SCIC(comme SCOC mais les etrangers peuvent être actionnaire)
 - Fondation
 - Association 1 M 300, 188 000 qui enemploient des salariés en moyenne 10 salariés par etrerprise. 16 M de bénévoles. 85 milliard d'euros
-
-
-
-
-
