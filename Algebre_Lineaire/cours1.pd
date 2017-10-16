@@ -42,13 +42,17 @@ $A = (a_{ij})$ avec $1 \leq i \leq m$ et $1 \leq j \leq n$
 
 La **transposee** de A: $A = (a_{ji})$ (On inverse les coordonnees).
 
-La matrice **adjointe** de A: $A* = \bar{A}$ (C'est le conjugue)
+La matrice **adjointe** de A: $A^* = {}^t \! \bar{A}$
 
-Uniquement lorsque l'on est dans les complexes. On note $(a*_{ij}) = \bar{a}_{ji}$
+C'est la matrice **transposee** de la matrice **conjuguee** de M.
+M qui est a coefficients **complexes**.
+
+On note donc $(a^*_{ij}) = \bar{a}_{ji}$
 
 #### Produit scalaire dans $\mathbb{R}^n$.
 
-C'est une forme bilineaire symetrique definie positive ($(x, x) \geq 0$)
+C'est une forme bilineaire symetrique definie positive ($(X, Y) \geq 0$).
+
 $X = (x_1, \hdots, x_n)$, $Y = (y_1, \hdots, y_n)$, le **produit scalaire**
 Formule:
 
@@ -56,33 +60,41 @@ $(X, Y) = \displaystyle\sum_{i=1}^n y_i \times x_i$
 
 #### Produit scalaire dans $\mathbb{C}^n$.
 $X = (x_1, \hdots, x_n)$, $Y = (y_1, \hdots, y_n)$, le **produit scalaire**
-Formule: $(X, Y) = \displaystyle\sum_{i=1}^n y*_i \times x_i$
 
-(Rappel $y*_i$ est le conjugue)
+Formule: $(X, Y) = \displaystyle\sum_{i=1}^n y^*_i \times x_i$
+
+(Rappel $y^*_i$ est l'adjoint)
 
 C'est une forme **sesquilineaire**.
 
 $(x, y + z) = (x, y) + (x, z)
-\\(x + y, y) = (x, z) + (y, z)
-\\(ax, y) = a(x, z)
-\\Si a \in \mathbb{C}: (x, ay) = (au)*.x = \displaystyle\sum_{i=1}^n a*.y*_i.x_i = \hdots$
+\\(x + y, z) = (x, z) + (y, z)
+\\(ax, y) = a(x, z)$
+
+Si $a \in \mathbb{C}: (x, ay) = (au)^*.x = \displaystyle\sum_{i=1}^n a^* \times y^*_i \times x_i = \hdots$
 
 ---------------------
 
 Formule: $(A.B)^T = B^T.A^T$
-Formule: $(A.B)* = B*.A*$
+Formule: $(A.B)^* = B^*. A^*$
 
 #### Definitions
 
 Soit $Q \in M_n(\mathbb{R})$ **Matrice orthogonale** ssi:
 
-$Q^T.Q = I$ I est la matrice identite.
+$Q^T.Q = I$, I est la matrice **identite**.
 
 * Rq: Une matrice orthogonale conserve la norme:
-  Si on prend un vecteur de Q alors $\|Qx\| = \|x\|`
-  $\implies \|x\| = \sqrt{(x, x)}`
+  Si on prend un vecteur de Q alors
+  $\begin{aligned}\\
+           & \|Qx\| = \|x\|\\
+  \implies & \|x\| = \sqrt{(x, x)}
+  \end{aligned}$
+
+--------------------
 
 Soit $A \in M_n(\mathbb{C})$ **hermitienne** ssi $A*=A$ dans les Reel cela signifie **symetrique**
+
 * Exemple:
   Soit $u \in \mathbb{C}^n$ (non nul et unitaire), $unitaire \iff \|u\| = 1$
   et on pose $H = I_n - 2uu*$
@@ -90,8 +102,8 @@ Soit $A \in M_n(\mathbb{C})$ **hermitienne** ssi $A*=A$ dans les Reel cela signi
 
 #### Theoreme (Schur)
 
-$\forall A \in M_n(\mathbb{C}), \exists u unitaire tq
-\\u*Au =  T$ (matrice triangulaire superieur)
+$\forall A \in M_n(\mathbb{C}), \exists u$ unitaire tq
+$\\u*Au =  T$ (matrice triangulaire superieur)
 
 Les elements diagonaux de `T` sont les **valeurs propres** de la matrice ($\lambda_i$).
 Chaque **valeur propre** a un **vecteur propre** associe.
@@ -117,16 +129,16 @@ $u*Au = D =\\
   0 & 0 & \cdots & \lambda_{n}
  \end{pmatrix}$
 
-Supposons A hermitienne $A* = A
-\\A \in M_n(\mathbb{C}) \geq \exists u \in M_n(\mathbb{C})$ (unitaire)
+Supposons A hermitienne $A^* = A
+\\A \in M_n(\mathbb{C}), \exists u \in M_n(\mathbb{C})$ (unitaire)
 
 $u*Au = T$ (T triangulaire superieur)
 
 $t_ii = \lambda_i$ ($lambda_i$ appartien au spectre de A)
 
 
-$T* = (u*Au)* = u*A*(u*)* = u*Au = T
-T* = T$ (T* est triangulaire inferieur)
+$T^* = (u*Au)* = u*A*(u*)* = u*Au = T
+T^* = T$ ($T^*$ est triangulaire inferieur)
 
 Donc `T` est **diagonale**. Et les valeurs propres sont reel.
 On peut demontrer la reciproque.
