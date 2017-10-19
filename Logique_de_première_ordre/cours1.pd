@@ -1,0 +1,25 @@
+# Logique
+
+* Numero 1
+* Prof: Hémon Sébastien	
+* Date: 11/10/2017
+
+## Introduction
+**Tarski** : *"N'est pas une phrase ce que l'on ne peut definir comme vrai ou
+faux."*
+
+**Axiomes** : Maniere d'ecrire une propriete. Elles forment le contexte.
+
+```
++-------------------+-----------------------+
+| Syntaxe (axiomes) | Semantiques (Verites) |
++-------------------+-----------------------+
+```
+
+Une phrase est compose de mots, eux-memes composes de caracteres.
+
+## 1 Induction
+**Definition par induction d'un type (T)**:
+  * A : On se donne des atomes (pas des axiomes) a1, a2, ..., an, consideres
+comme etant de type T
+  * O : On se donne des operateurs ou constructeurs $\square 1, \square
