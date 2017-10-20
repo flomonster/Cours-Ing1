@@ -1,8 +1,14 @@
+---
+title: "Algebre Lineaire 1"
+author: [Amsallem Florian]
+date: 2017-10-06
+...
+
 # Algebre Lineaire
 
-Numero: 1
-Prof: Regragui Mohamed
-Date: 6 Octobre 2017
+* Numero: 1
+* Prof: Regragui Mohamed
+* Date: 6 Octobre 2017
 
 ## Programme
 
@@ -23,9 +29,7 @@ Date: 6 Octobre 2017
 
 ### Application (Systemes differentiels)
 
-```
-dX/dt = AX
-```
+$\frac{dX}{dt} = AX$
 
 Besoin de diagonaliser A.
 
@@ -33,92 +37,114 @@ Besoin de diagonaliser A.
 
 ### Rappels des notations
 
-Soit `Mm,n(K)` l'espace des matrices a `m` lignes et `n` colonnes a coefficients
-dans `K` (`K` est Reel ou Complexe).
+Soit $M_{m,n}(\mathbb{K})$ l'espace des matrices a `m` lignes et `n` colonnes a coefficients
+dans $\mathbb{K} \equiv \mathbb{R}$ ou $\mathbb{C}$.
 
-Si `m = n`, on note `Mn(K)` l'espace des matrices carrees.
+Si $m = n$, on note $M_n(\mathbb{K})$ l'espace des matrices carrees.
 
-Soit `A` @ `Mm,n(K)`
-`A = (aij)` avec `1 <= i <= m` et `1 <= j <= n`
+Soit $A \in M_{m,n}(\mathbb{K})$
 
-La **transposee** de `A`: `A = (aji)` (On inverse les coordonnees).
+$A = (a_{ij})$ avec $1 \leq i \leq m$ et $1 \leq j \leq n$
 
-La matrice **adjointe** de `A`: `A*= A` (conjugue) (Uniquement lorsque l'on est
-dans les complexes. On note `(a*ij) = aji (conjugue)`
+La **transposee** de A: $A = (a_{ji})$ (On inverse les coordonnees).
 
-#### Produit scalaire dans `R^n`.
+La matrice **adjointe** de A: $A^* = {}^t \! \bar{A}$
 
-C'est une forme bilineaire symetrique definie positive (`(x, x) >= 0`)
-`X = (x1, ..., xn)`, `Y = (y1, ..., yn)`, le **produit scalaire**
-Formule: ```(X, Y) = Somme(i: 1 a n, yi * xi)```
+C'est la matrice **transposee** de la matrice **conjuguee** de M.
+M qui est a coefficients **complexes**.
 
-#### Produit scalaire dans `C^n`.
-`X = (x1, ..., xn)`, `Y = (y1, ..., yn)`, le **produit scalaire**
-Formule: ```(X, Y) = Somme(i: 1 a n, y*i * xi)``` (Rappel `y*i` est le conjugue)
+On note donc $(a^*_{ij}) = \bar{a}_{ji}$
+
+#### Produit scalaire dans $\mathbb{R}^n$.
+
+C'est une forme bilineaire symetrique definie positive ($(X, Y) \geq 0$).
+
+$X = (x_1, \hdots, x_n)$, $Y = (y_1, \hdots, y_n)$, le **produit scalaire**
+Formule:
+
+$(X, Y) = \displaystyle\sum_{i=1}^n y_i \times x_i$
+
+#### Produit scalaire dans $\mathbb{C}^n$.
+$X = (x_1, \hdots, x_n)$, $Y = (y_1, \hdots, y_n)$, le **produit scalaire**
+
+Formule: $(X, Y) = \displaystyle\sum_{i=1}^n y^*_i \times x_i$
+
+(Rappel $y^*_i$ est l'adjoint)
 
 C'est une forme **sesquilineaire**.
-```
-(x, y + z) = (x, y) + (x, z)
-(x + y, y) = (x, z) + (y, z)
-(ax, y) = a(x, z)
-Si a @ C: (x, ay) = (au)*.x = Somme(i 1 a n: a*.y*i.xi) = ...
-```
+
+$(x, y + z) = (x, y) + (x, z)
+\\(x + y, z) = (x, z) + (y, z)
+\\(ax, y) = a(x, z)$
+
+Si $a \in \mathbb{C}: (x, ay) = (au)^*.x = \displaystyle\sum_{i=1}^n a^* \times y^*_i \times x_i = \hdots$
 
 ---------------------
 
-Formule: ```Transpose(AB) = Transpose(B).Transpose(A)```
-Formule: ```(AB)* = B*.A*```
+Formule: $(A.B)^T = B^T.A^T$
+Formule: $(A.B)^* = B^*. A^*$
 
 #### Definitions
 
-Soit `Q @ Mn(R)` **Matrice orthogonale** ssi:
-```Transpose(Q).Q = Identite```
-* Rq: Une matrice orthogonale conserve la norme:
-  Si on prend un vecteur de `Q` alors `||Qx|| = ||x||`
-  `||x|| = sqrt((x, x))`
+Soit $Q \in M_n(\mathbb{R})$ **Matrice orthogonale** ssi:
 
-Soit `A @ Mn(C)` **hermitienne** ssi `A*=A` dans les Reel cela signifie **symetrique**
+$Q^T.Q = I$, I est la matrice **identite**.
+
+* Rq: Une matrice orthogonale conserve la norme:
+  Si on prend un vecteur de Q alors
+  $\begin{aligned}\\
+           & \|Qx\| = \|x\|\\
+  \implies & \|x\| = \sqrt{(x, x)}
+  \end{aligned}$
+
+--------------------
+
+Soit $A \in M_n(\mathbb{C})$ **hermitienne** ssi $A*=A$ dans les Reel cela signifie **symetrique**
+
 * Exemple:
-  Soit `u @ C^n (non nul et unitaire)`, `unitaire <=> ||u|| = 1`
-  et on pose `H = In - 2uu*`
+  Soit $u \in \mathbb{C}^n$ (non nul et unitaire), $unitaire \iff \|u\| = 1$
+  et on pose $H = I_n - 2uu*$
   H est une matrice **hermitienne** et unitaire (matrice d'Hauseholder)
 
 #### Theoreme (Schur)
-```
-Pour tout A @ Mn(C), Il existe u unitaire tq
-u*Au =  T (matrice triangulaire superieur)
-```
-Les elements diagonaux de `T` sont les **valeurs propres** de la matrice (`lambda_i`).
+
+$\forall A \in M_n(\mathbb{C}), \exists u$ unitaire tq
+$\\u*Au =  T$ (matrice triangulaire superieur)
+
+Les elements diagonaux de `T` sont les **valeurs propres** de la matrice ($\lambda_i$).
 Chaque **valeur propre** a un **vecteur propre** associe.
-```A.v_i = lambda_i.v_i)**
+
+$A.v_i = \lambda_i.v_i$
 
 L'ensemble des valeurs propre de `A`  est le **spectre** de `A`.
 
-* Def: le **rayon spectral** de `A` est le max de (`lambda_i`).
+* Def: le **rayon spectral** de `A` est le max de ($\lambda_i$).
 
 ------------------
 
 Ex1:
 
-Soit `A @ Mn(Q)`
+Soit $A \in M_n(\mathbb{Q})$
 
-Montrer que `A` est **hermitienne** <=>  Il existe `u` unitaire tq
-| u*Au = D |
-| ----- |
-| l1 | 0 | ... | 0 |
-| 0 | l2 | ... | 0 |
-| 0 | 0 | ... | ln |
+Montrer que `A` est **hermitienne** $\iff$  $\exists$ `u` unitaire tq
+$u*Au = D =\\
+\begin{pmatrix}
+  \lambda_{1} & 0 & \cdots & 0 \\
+  0 & \lambda_{2} & \cdots & 0 \\
+  \vdots  & \vdots  & \ddots & \vdots  \\
+  0 & 0 & \cdots & \lambda_{n}
+ \end{pmatrix}$
 
-Supposons A hermitienne A* = A
-A @ Mn(C) => Il existe `u @ Mn(C)` (unitaire)
-`u*Au = T` (T triangulaire superieur)
-`t_ii = lambda_i` (`lambda_i` appartien au spectre de `A`)
+Supposons A hermitienne $A^* = A
+\\A \in M_n(\mathbb{C}), \exists u \in M_n(\mathbb{C})$ (unitaire)
 
-```
-T* = (u*Au)* = u*A*(u*)*
-             = u*Au = T
-T* = T (T* est triangulaire inferieur)
-```
+$u*Au = T$ (T triangulaire superieur)
+
+$t_ii = \lambda_i$ ($lambda_i$ appartien au spectre de A)
+
+
+$T^* = (u*Au)* = u*A*(u*)* = u*Au = T
+T^* = T$ ($T^*$ est triangulaire inferieur)
 
 Donc `T` est **diagonale**. Et les valeurs propres sont reel.
 On peut demontrer la reciproque.

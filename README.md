@@ -1,10 +1,39 @@
 # Cours-S5
 Contient toutes les notes des cours du semestre 5 a EPITA
 
-## Les maths
+## Pandoc
 
-Les maths sont pris en pandoc, du markdown integrant les maths latex.
+Les cours sont pris en pandoc. Cela permet d'inserer du latex dans le
+markdown.
 
-## Autres
+### Instalation
 
-Les autres cours sont pris en markdown simple.
+Ubuntu:
+
+```
+apt install texlive pandoc
+```
+
+Conseil installez le template [ICI](https://github.com/Wandmalfarbe/pandoc-latex-template)
+
+### Header
+
+```
+---
+title: "Nom du cours [#]"
+author: [Votre nom]
+date: 2017-10-20
+...
+
+# Nom du cours
+
+* Numero: #
+* Prof: Nom du prof
+* Date: 20 Octobre 2017
+```
+
+## Utilisation
+
+```
+pandoc --template eisvogel --listing moncours.md -o moncours.pdf
+```

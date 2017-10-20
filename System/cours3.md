@@ -1,3 +1,9 @@
+---
+title: "System 3"
+author: [Auer Erwan]
+date: 2017-10-17
+...
+
 # System
 
 * Numero: 3
@@ -24,7 +30,7 @@ Exemples :
   * .file +name\_file : indique le fichier source, informatif
   * .glob(a)l +nom\_du\_symbole : met le symbole dans la table <=> extern
   * .type +symbole, @function : dans la table de symboles, déclare les fonctions
-  * .text : section code  
+  * .text : section code
   * .size main, .-main : taille du symbole main (.-... > adresses courantes)
   * .string ¨toto¨: directive pour mettre des strings en mémoire
   * .section +name: passe dans la section voulue, par exemple .rodata pour les variables constantes
@@ -48,7 +54,7 @@ Dans la pile: variables locales, paramètres, valeur de retour, adresse de retou
 +-------+
 
 
-+-------+ 
++-------+
 | Heap  |
 +-------+ 0x0
 ```

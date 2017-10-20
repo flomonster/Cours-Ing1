@@ -1,8 +1,14 @@
+---
+title: "Theorie des Langages 1"
+author: [Amsallem Florian]
+date: 2017-10-09
+...
+
 # Theorie des Langages
 
-Numero: 1
-Prof: Fabrizio Jonathan
-Date: 9 Octobre 2017
+* Numero: 1
+* Prof: Fabrizio Jonathan
+* Date: 9 Octobre 2017
 
 ## Introduction
 
@@ -37,8 +43,8 @@ Un alphabet ne peut pas etre vide et infini.
 Ce qui **caracterise** un alphabet est son **cardinal** (le nombre de symboles).
 
 Ex:
-Σ = {`a`, `b`}
-Σ* = {`E`, `a`, `b`, `aa`, `ab`, `ba`, `bb`...}
+$\sum$ = {`a`, `b`}
+$\sum^*$ = {$\varepsilon$, `a`, `b`, `aa`, `ab`, `ba`, `bb`...}
 
 Il y a deux classes de langage:
 * Les langages recursivement enumerables: Il existe un algo pour lister tous les mots du langage.
@@ -50,7 +56,7 @@ Donc un **langage recursif** est un **langage recursivement enumerables**.
 
 ### Sur les mots
 
-* `Σ*`: L'ensemble des mots
+* $\sum^*$: L'ensemble des mots
 * `.`: Concatenation (C'est un monoide)
   * `a.E = E.a = a` (`E` est l'element neutre)
   * `|a.b| = |a| + |b|`
@@ -59,10 +65,10 @@ Donc un **langage recursif** est un **langage recursivement enumerables**.
 
 ### Sur les langages
 
-* `∪`: Union
-* `∩`: Intersection
+* $\cup$: Union
+* $\cap$: Intersection
 * `-`: Complement
 * `.`: Concatenation
   * {E}.*L* = *L*.{E} = *L* (`{E}` est l'element vide)
-  * ∅.*L* = ∅
+  * $\varnothing$.*L* = ∅
 * `*`: Etoile de Kleene

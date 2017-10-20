@@ -1,13 +1,21 @@
+---
+title: "Initation à l'entreprise 1"
+author: [Issarni Théo]
+date: 2017-10-06
+...
+
 # Initation à l'entreprise
 
-Numéro: 1
-Prof: Ricau François
-Date: 6 octobre 2017
+* Numero: 1
+* Prof: Ricau François
+* Date: 6 octobre 2017
+
+## Introduction
 
 livre à lire:  CAPITALISME, joyce apelback.
-VRP: commercial 
+VRP: commercial
 
-Entreprise: unité économique, juridiquement autonome de l'ensemble de la socièté organisé pour produire des biens et des services, pour les vendre sur le marché. Production/vente ou Achat/revente afin de tirer des bénéfices. 
+Entreprise: unité économique, juridiquement autonome de l'ensemble de la socièté organisé pour produire des biens et des services, pour les vendre sur le marché. Production/vente ou Achat/revente afin de tirer des bénéfices.
 Une entreprise c'est agencer des moyens afin d'obtenir des résultats, toujours rechercher l'innovation dans l'objecif de mieux présenter ses biens, être plus rapide, ... En bref apporter quelque chose que ses concurents n'ont pas.
 
 Economie -> zero morale

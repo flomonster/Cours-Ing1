@@ -1,3 +1,9 @@
+---
+title: "Algebre Lineaire 2"
+author: [Amsallem Florian]
+date: 2017-10-13
+...
+
 # Algebre Lineaire
 
 * Numero: 2

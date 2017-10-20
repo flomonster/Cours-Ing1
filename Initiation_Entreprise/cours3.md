@@ -1,8 +1,14 @@
+---
+title: "Initation à l'entreprise 3"
+author: [Issarni Théo]
+date: 2017-10-20
+...
+
 # Initation à l'entreprise
 
-Numéro: 3
-Prof: Ricau François
-Date: 20 octobre 2017
+* Numero: 3
+* Prof: Ricau François
+* Date: 20 octobre 2017
 
 ## 3 type de de personne
 

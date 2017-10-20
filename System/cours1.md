@@ -1,8 +1,14 @@
+---
+title: "System 1"
+author: [Amsallem Florian]
+date: 2017-10-03
+...
+
 # System
 
-Numero: 1
-Prof: Laskar Gabriel
-Date: 3 Octobre 2017
+* Numero: 1
+* Prof: Laskar Gabriel
+* Date: 3 Octobre 2017
 
 ## OS
 

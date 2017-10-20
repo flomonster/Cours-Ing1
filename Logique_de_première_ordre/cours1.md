@@ -1,7 +1,13 @@
+---
+title: "Logique 1"
+author: [Auer Erwan]
+date: 2017-10-11
+...
+
 # Logique
 
 * Numero 1
-* Prof: Hémon Sébastien	
+* Prof: Hémon Sébastien
 * Date: 11/10/2017
 
 ## Introduction
@@ -28,7 +34,7 @@ d'arites respectives r1, r2, ..., rn et on considere :
     1. Chaque fois que t1, t2, ..., ti sont de types T et $\square i$ est un constructeur d arite ri
     2. On aura $\square i$ t1, ..., ti est de type T
   * C : Condition d'arrêt:
-                          
+
                            1. un nombre d'étapes à ne pas dépasser ou non borné
                            2. condition logique
       **Notation** : condition d'arrêt $\omega$ correspond à accepter tout nb
@@ -48,7 +54,7 @@ Ce type integer est équivalent à celui des entiers naturels.
 On se donne les objets suivants:
 
   * Lettres majuscules latines (éventuellement avec indices) dans $\Lambda$
-  * Connecteurs logiques : $\land$ (et); $\lor$ (ou); => (implication); <=> (équivalent);
+  * Connecteurs logiques : $\land$ (et); $\lor$ (ou); $\implies$ (implication); $\iff$ (équivalent);
 $\neg$ (négation), $\bot$ (bottom); $\top$ (top).
 
   On définit par induction le type F0 "formule propositionnelle de la logique"

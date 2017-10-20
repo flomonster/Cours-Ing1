@@ -1,8 +1,14 @@
+---
+title: "Programmation Lineaire 1"
+author: [Amsallem Florian]
+date: 2017-10-09
+...
+
 # Programmation Lineaire
 
-Numero: 1
-Prof: Siarry Patrick
-Date: 9 Octobre 2017
+* Numero: 1
+* Prof: Siarry Patrick
+* Date: 9 Octobre 2017
 
 ## Programme
 * Rappels d'Algebre Lineaire

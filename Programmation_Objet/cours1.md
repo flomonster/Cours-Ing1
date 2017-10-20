@@ -1,8 +1,14 @@
+---
+title: "Approches Objet de la Programmation 1"
+author: [Amsallem Florian]
+date: 2017-10-09
+...
+
 # Approches Objet de la Programmation
 
-Numero: 1
-Prof: Didier Verna
-Date: 9 Octobre 2017
+* Numero: 1
+* Prof: Didier Verna
+* Date: 9 Octobre 2017
 
 ## Introduction
 

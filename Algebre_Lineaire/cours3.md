@@ -1,3 +1,9 @@
+---
+title: "Algebre Lineaire 3"
+author: [Amsallem Florian]
+date: 2017-10-20
+...
+
 # Algebre Lineaire
 
 * Numero: 3
@@ -28,7 +34,11 @@ $\lim{p \to +\infty} \Big(\displaystyle\sum{i=1}^n |X_i|^p \Big)^\frac{1}{p}$
 $= |X_j| = \underset{1 \leq i \leq n}{max}|X_i| \implies \lim{p \to +\infty} \|X\|_p$
 $= max |X_i|$
 
-**Notation**: $\|X\|_\infty = \underset{1 \leq i \leq n}{max|C_i|}$
+**Notation**:
+
+\begin{equation}
+\|X\|_\infty = \underset{1 \leq i \leq n}{max|C_i|}
+\end{equation}
 
 ## Normes vectorielles et matricielles
 
@@ -136,6 +146,7 @@ $= i\sigma_i^2 = f(A^*A)=M^2$
 Rq: Si A est hermitienne: $A^*=A$
 
 $\|A\|_2 = \sqrt{\varphi(A^2)} = \sqrt{\varphi^2(A)} = \varphi(A)$
+
 ## Exercice5 (A preparer pour le prochain cours)
 
 Demontrer que $\|A\|_\infty = \underset{1 \leq i \leq n}{max} \displaystyle\sum_{j=1}^n |a_{ij}$

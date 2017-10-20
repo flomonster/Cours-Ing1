@@ -1,8 +1,14 @@
+---
+title: "Algo 1"
+author: [Amsallem Florian]
+date: 2017-10-12
+...
+
 # Algo
 
-Numero: 1
-Prof: Alexandre Duret-Lutz
-Date: 12 Octobre 2017
+* Numero: 1
+* Prof: Alexandre Duret-Lutz
+* Date: 12 Octobre 2017
 
 Symboles Utiles: Σ ε ∪ ∩ ∅ Ω ⌊ ⌋ ⌈ ⌉
 

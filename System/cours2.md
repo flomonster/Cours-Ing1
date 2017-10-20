@@ -1,3 +1,9 @@
+---
+title: "System 2"
+author: [Amsallem Florian]
+date: 2017-10-17
+...
+
 # System
 
 * Numero: 2
@@ -37,6 +43,8 @@ On a ausse le manuel de l'assembleur. *GNU AS* (gas manual). `info as`
 * r8 -> r15          (on en fait un peu se qu'on veut)
 * eflags (Registre de conditions)
   * Flag `Z` `C` `O` `C`
+
+\newpage
 
 Ces registres la sont accessible de plusieurs manieres:
 
@@ -129,7 +137,7 @@ Pour manipuler des `ELF` on peut utiliser:
 * `objdump` Pour avoir le code assembleur
 * `readelf` Pour voir la table de segments
 * `gdb`
-* `objcopy` Assez cool d'apres multun ♥
+* `objcopy` Assez cool d'apres multun
 * `ld` / `gas`
 
 Tous ces outils sont des `bin utils`.

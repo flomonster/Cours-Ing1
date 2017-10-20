@@ -1,16 +1,22 @@
+---
+title: "Initation à l'entreprise 2"
+author: [Issarni Théo]
+date: 2017-10-13
+...
+
 # Initation à l'entreprise
 
-Numéro: 2
-Prof: Ricau François
-Date: 13 octobre 2017
+* Numero: 2
+* Prof: Ricau François
+* Date: 13 octobre 2017
 
-### Banque
+## Banque
 le changement de banque est proscris. En cas de découvert de 500euros lettre/ 5000euros convocation + lettre/ 50 000euros invation au restaurants car il s'agit la de la faute du banquier
 
-### Bourse
+## Bourse
 DON JONES(cac40 des US) indices boursier qui caractérise la forme boursière. Ex si croissance, indique la forme générale de la croissance des plus petites entreprises.
 
-### Entreprise
+## Entreprise
 - creation de richesse :
     - (valeur -> croissance valeur boursière de l'entreprise)
     - (activité production de matière première)
@@ -28,7 +34,7 @@ Services
 Une entreprise n'existe pas sans marché
 La créationde  la valeur viens de la nature (environement)
 
-### Classification de l'INSEE
+## Classification de l'INSEE
 - artisans commerçant 2 M 800
 - auto entrepreneur (souvent classé dans les indépendant, des fois ils font des structures) : 1 M (environ en tout) et il s'en crée 200 000 par ans. Stable car ils se renouvelle annuelement. (ce statuts permet d'avoir une couverture)
 - entreprises 3 M 400, il y a 4 type d'entreprises :
@@ -46,7 +52,7 @@ Il n'y a pas d'argent dans l'agriculture, il y a du capital
 - Services 2 M 700 (artisans, infirmier et profession libérales, ...) beaucoup de clients, pas d'entraide
 - BTP (batiment) masse travail énorme. Très bon indicateur, "Quand le batiment va tout va". Quand le batiment s'arrete il licensie.
 
-### Formes juridiques
+## Formes juridiques
 
 - Industrielles EURL (entreprise unique a responsabilité limité) 1 M 700 on pousse les gens a coissir cette option car ça oblige une responsabilité (Big Brother is wathcing you)
     - Dossier social (Sécu digitalisé, 1 Milliard de feuilles scannées chaque année)

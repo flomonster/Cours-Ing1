@@ -1,3 +1,9 @@
+---
+title: "Algo 2"
+author: [Amsallem Florian]
+date: 2017-10-19
+...
+
 # Algo
 
 * Numero: 2
