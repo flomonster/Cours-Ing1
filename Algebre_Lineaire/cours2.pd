@@ -8,7 +8,7 @@
 
 A est definie positive $\iff (Ax, x) > 0, \forall x \neq 0$
 
-Rq: $A hermitienne \iff A est Diagonalisable$
+Rq: $A$ hermitienne $\iff$ A est Diagonalisable
 $\exists U unitaire$
 
 $U*AU=D
@@ -136,7 +136,7 @@ $t_{1i+1} = t_{1i+1} = \hdots = t_{ii+1} = 0$
 
 Hyp de recurence $\implies |t_{i+1 i+2}|^2 + \hdots + |t_{i+n}|^2 = 0
 \implies t_{i+1j}=0 \\ \forall j /geq i + 2$
-
+$\\\\$
 Donc $T=D
   \begin{pmatrix}
    ? & 0 & \hdots  & 0 \\

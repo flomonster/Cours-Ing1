@@ -120,7 +120,7 @@ Ex1:
 
 Soit $A \in M_n(\mathbb{Q})$
 
-Montrer que `A` est **hermitienne** <=>  $\exists$ `u` unitaire tq
+Montrer que `A` est **hermitienne** $\iff$  $\exists$ `u` unitaire tq
 $u*Au = D =\\
 \begin{pmatrix}
   \lambda_{1} & 0 & \cdots & 0 \\
