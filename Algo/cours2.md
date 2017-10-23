@@ -59,6 +59,7 @@ def InsertionSort(A,n):
       A[j + 1] = A[j]
       j-=1
     A[j + 1] = key
+  return A
 ```
 
 A la $i^{eme}$ iteration les $i^{eme}$ premieres valeurs de `A` sont triees...
