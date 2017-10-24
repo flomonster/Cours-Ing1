@@ -45,7 +45,7 @@ $\sqrt{n} = n^{0.5}$ on est donc dans le cas 1.
 $O(n^{\log_43 - \varepsilon})$ avec $\varepsilon = 0.1$ par exemple.
 
 ### 2^^eme^^ exemple
-$T(n) = 3T(\frac{n}{4} + n\\$
+$T(n) = 3T(\frac{n}{4}) + n\\$
 Donc $a = 3$ et $b = 4$.
 
 On est dans le cas 3.
