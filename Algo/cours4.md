@@ -17,7 +17,7 @@ fonction recursif.
 
 ## Theoreme general
 
-Ce theoreme permet de resoudre les quations de complexites de la forme:
+Ce theoreme permet de resoudre les équations de complexites de la forme:
 
 **Tips**: Il sera donne en partiel. Il faut quand meme savoir l'utiliser.
 
@@ -128,18 +128,18 @@ Pour voir l'animation des algos d'ajouts et suppression d'elements:
 ```python
 def Heapify(A, m, i): //m la taille du tas
   // On suppose fg(i) et fd(i) sont des tas
-  // mais i par forcemant.
+  // mais i pas forcément.
   l = leftChild(i)
   r = rightChild(i)
   if l < m and A[l] > A[i]:
     largest = l
   else:
     largest = i
-  if r < m and A[r} > A[largest]:
+  if r < m and A[r] > A[largest]:
     larget = r
   if largest != i:
     swap(A, largest, i)
-    Heapify(A,m, largest)
+    Heapify(A, m, largest)
 ```
 
 ```python
