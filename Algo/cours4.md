@@ -21,17 +21,17 @@ Ce theoreme permet de resoudre les quations de complexites de la forme:
 
 **Tips**: Il sera donne en partiel. Il faut quand meme savoir l'utiliser.
 
-$T(n) = aT(\frac{n}{b} \pm \theta(1)) + f(n) \implies \theta(n\log(n))\\
+$T(n) = aT(\frac{n}{b} \pm \Theta(1)) + f(n) \implies \Theta(n\log(n))\\
 \text{ou }  a \geq 1, b \ge 1 \text{, et }f(n)\text{ fonction positive}$
 
 Il y a 4 cas:
 
-1. si $f(n) = O(n^{log_b(a) - \varepsilon})$ pour un $\varepsilon \ge 0$
-alors $T(n) = \theta(n^{log_ba})$
-1. si $f(n) = \theta(n^{log_b(a)})$ pour un $\varepsilon \ge 0$
-alors $T(n) = \theta(n^{log_ba}\times \log n) = \theta(f(n)\log n)$
+1. si $f(n) = \mathcal{O}(n^{log_b(a) - \varepsilon})$ pour un $\varepsilon \ge 0$
+alors $T(n) = \Theta(n^{log_ba})$
+1. si $f(n) = \Theta(n^{log_b(a)})$ pour un $\varepsilon \ge 0$
+alors $T(n) = \Theta(n^{log_ba}\times \log n) = \Theta(f(n)\log n)$
 1. si $f(n) = \Omega(n^{log_b(a) + \varepsilon})$ pour un $\varepsilon \ge 0$
-et de plus il existe $c \in [0, 1[$ tq $af(n/b) \leq cf(n)$ alors $T(n) = \theta(f(n))$
+et de plus il existe $c \in [0, 1[$ tq $af(n/b) \leq cf(n)$ alors $T(n) = \Theta(f(n))$
 1. sinon le theoreme ne s'applique pas.
 
 ## Exemples
@@ -42,7 +42,7 @@ Donc $a = 3$ et $b = 4$. De plus $\log_4(3) \simeq 0.792$
 
 $\sqrt{n} = n^{0.5}$ on est donc dans le cas 1.
 
-$O(n^{\log_43 - \varepsilon})$ avec $\varepsilon = 0.1$ par exemple.
+$\mathcal{O}(n^{\log_43 - \varepsilon})$ avec $\varepsilon = 0.1$ par exemple.
 
 ### 2^^eme^^ exemple
 $T(n) = 3T(\frac{n}{4}) + n\\$
@@ -55,7 +55,7 @@ $c = 3/16 \le 1$ tel que $af(n/b) \le cf(n)\\$
 $3(\frac{n}{4})^2 \leq cn^2\\$
 $\frac{3}{16} \leq c$
 
-Donc $T(n) = \theta(n^2)$
+Donc $T(n) = \Theta(n^2)$
 
 ## La substitution
 
@@ -73,16 +73,16 @@ $= 8T(\frac{n}{8}) + cn(log_2(\frac{n}{4}) + log_2(\frac{n}{2}) + \log_2n)$
 
 On voit un pattern apparaitre.
 
-$T(n) = 2T(\frac{n}{2} + \theta(n \log n)\\$
-$a = 2 b = 2 f(n) = \theta(n \log n)$
+$T(n) = 2T(\frac{n}{2} + \Theta(n \log n)\\$
+$a = 2 b = 2 f(n) = \Theta(n \log n)$
 
 On est dans le 4^^eme^^ cas du theoreme general.
 
 $T(n) = n T(n) + cn \Bigg(\displaystyle\sum_{k=0}^{\log_2(n) -1} \log_2 n$
 $- \displaystyle\sum_{k=0}^{log_2(n) -1} k\Bigg)$
 
-$T(n) = \theta(n) + \theta(n \log(n) \log(n))\\$
-$= \theta(n \log(n) \log(n))$
+$T(n) = \Theta(n) + \Theta(n \log(n) \log(n))\\$
+$= \Theta(n \log(n) \log(n))$
 
 \newpage
 
@@ -158,8 +158,8 @@ def HeapSort(A, m):
 
 ### Complexite
 
-$T_H(n) \leq T_H(\frac{2}{3}n) + \theta(1)$
+$T_H(n) \leq T_H(\frac{2}{3}n) + \Theta(1)$
 
 On est dans le cas 2 du theoreme general. Donc:
 
-$T(n) \leq \theta(\log n)$
+$T(n) \leq \Theta(\log n)$
