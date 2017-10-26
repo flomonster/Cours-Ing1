@@ -58,16 +58,16 @@ def QuickSort(A, b, e):
 
 ```python
 def Partition(A, b, e):
-	p = A[b}; i = b - 1; j = e
-	while True:
-		while A[i] >= p:
-			while A[j] <= p:
-				if (j > 1):
-					swap(A, i, j)
-				else:
-					return i += (b == i)
-				j += 1
-			i += 1
+	  p = A[b]; i = b; j = e - 1
+    while True:
+        while A[i] >= p:
+            i += 1
+        while A[j] <= p:
+            j -= 1
+        if (j > i):
+            swap(A, i, j)
+        else:
+            return i + (b == i)
 ```
 
 ### Complexite
