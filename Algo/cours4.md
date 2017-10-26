@@ -86,9 +86,9 @@ $= \Theta(n \log(n) \log(n))$
 
 \newpage
 
-## Arbre parfais
+## Arbre parfait
 
-> Arbre binaire (chaque somet a au plus deux fils), avece tous les niveaux pleins,
+> Arbre binaire (chaque sommet a au plus deux fils), avece tous les niveaux pleins,
 sauf eventuellement le derniers ou les feuilles sont toutes a gauche.
 
 ![Arbre parfait](http://www.ida.liu.se/opendsa/OpenDSA/Books/OpenDSA/html/_images/BinArray.png)
