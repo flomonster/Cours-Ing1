@@ -32,8 +32,20 @@ date: 2017-10-20
 * Date: 20 Octobre 2017
 ```
 
-## Utilisation
+### Utilisation
 
 ```
 pandoc --template eisvogel --listing moncours.md -o moncours.pdf
 ```
+
+## Floobits
+
+Floobits vous permet d'editer a plusieur sur le meme document.
+Vous pouvez l'utiliser avec plusieur editeur:
+
+* [Vim](https://github.com/Floobits/floobits-vim)
+* Sublime Text
+* IntelliJ
+* Directement sur l'editeur en ligne
+
+[![Floobits Status](https://floobits.com/flomonster/Cours-S5.svg)](https://floobits.com/flomonster/Cours-S5/redirect)
