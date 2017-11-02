@@ -4,6 +4,10 @@
 
 # Objs
 *.pdf
+*.log
+*.out
+*.aux
+*.tex
 
 # Floobits
 *.floo
