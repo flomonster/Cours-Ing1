@@ -8,6 +8,8 @@ date: 2018-02-05
 
 legifrance.gouv.fr -> version actuelle et encienne des lois
 
+Les lois sont sur :[www.legifrance.gouv.fr](www.legifrance.gouv.fr).
+
 Le droit : L'ensemble de règles contrainnantes qui régissent a vie en société.
 Notions de contrainte / obligations
 
