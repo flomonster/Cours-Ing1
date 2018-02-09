@@ -11,13 +11,13 @@ date: 2017-10-09
 * Date: 9 Octobre 2017
 
 ## Programme
-* Rappels d'Algebre Lineaire
+### Rappels d'Algebre Lineaire
   * Determinant
   * Cofacteur
   * Inversion de matrice
   * Vecteur independant / lies
-* Modelisation d'un probleme d'optimisation sous la forme d'un **programme lineaire (PL)**
-* Resolution d'un PL a 2D -> resolution graphique
+  * Modelisation d'un probleme d'optimisation sous la forme d'un **programme lineaire (PL)**
+  * Resolution d'un PL a 2D -> resolution graphique
   * Principe de l'algo du **SIMPLEXE**
 
 ## Rappels d'Algebre Lineaire

@@ -10,7 +10,7 @@ date: 2017-10-12
 * Prof: Alexandre Duret-Lutz
 * Date: 12 Octobre 2017
 
-Symboles Utiles: Σ ε ∪ ∩ ∅ Ω ⌊ ⌋ ⌈ ⌉
+Symboles Utiles: $ Σ $ ε ∪ ∩ ∅ Ω ⌊ ⌋ ⌈ ⌉
 
 ## Intro
 
@@ -71,11 +71,11 @@ for (int i = 5; i < 15; ++i)
 Combien de fois a ete afficher chaque fruits ?
 * Kiwi: 10
 * Pomme: 100
-* Banane: Σ~4~^13^ = (4 + 13) * 5 = 85
+* Banane: $ Σ~4~^13^ = (4 + 13) * 5 = 85 $
 * Orange: 10
 
 Si on change `15` par `n` avec `n` > 5:
-* Kiwi: Σ~i=5~^n-1^1 = `n`-5
-* Pomme: Σ~i=5~^`n`-1^Σ~j=10~^19^1 = Σ~i=5~^`n`-1^1 = (`n`-5) * 10
-* Banane: Σ~i=5~^`n`-1^Σ~j=1~^i-1^1 = ((`n` + 2) * (n - 5)) / 2
-* Orange: Σ~i=5~^`n`-1^Σ~j=10~^`n`-1^1
+* Kiwi: $ Σ~i=5~^n-1^1 = `n`-5 $
+* Pomme: $ Σ~i=5~^`n`-1^Σ~j=10~^19^1 = Σ~i=5~^`n`-1^1 = (`n`-5) * 10 $
+* Banane: $ Σ~i=5~^`n`-1^Σ~j=1~^i-1^1 = ((`n` + 2) * (n - 5)) / 2 $
+* Orange: $ Σ~i=5~^`n`-1^Σ~j=10~^`n`-1^1 $

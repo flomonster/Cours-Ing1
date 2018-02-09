@@ -13,11 +13,11 @@ date: 2017-11-10
 ## Exercice
 
 Montrer les équivalences suivantes:
-\begin{enumerate*}[label=\roman]
-  \item $$\lim_{k\to\infty} A^k = 0 \Leftrightarrow
-  \item \rho (A) < 1 \Leftrightarrow
-  \item \exists ||A|| < 1
-\end{enumerate*}
+$\begin{enumerate}[label=\roman]$
+  $\item \lim_{k\to\infty} A^k = 0 \Leftrightarrow$
+  $\item \rho (A) < 1 \Leftrightarrow$
+  $\item \exists ||A|| < 1$
+$\end{enumerate}$
 
 \romannum{1} \rightarrow \romannum{2}
 \forall \lambda \in S_p (A), \exists X \ne $\vv{0}$ tel que $AX = \lambda X$
