@@ -1,5 +1,5 @@
 ---
-title: "Graph"
+title: "Graph 1"
 author: [Alexandre Duret-Lutz]
 date: 2018-02-15
 ...
