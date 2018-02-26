@@ -1,7 +1,7 @@
 ---
 title : "FMSI 2"
 author: [Auer Erwan]
-date: 07 Février 2018
+date: 14 Février 2018
 tags: [SG2, FMSI]
 ...
 
