@@ -4,85 +4,74 @@ author: [Moin Marie]
 date: 2018-03-05
 ...
 
-# Droit Générale
+# Partiel (FAQ)
 
-### Partiel : QCM (Rester au moins une heure dans la salle afin d'espérer un ratrappage)
+C'est un **QCM** avec **points négatif**. Il n'y a pas de pièges.
+Il y a le droit a tous les documents (**non numérique**).
+La triche est un fléau.
 
-N'importe quelle personne peut demander à passer devant un juge.
-Exemple : contester une amende.
 
-Une fois que le jugement à était rendu (jugement de première instance), le
-justiciable a alors 30 jours pour faire appel. Après cette période
-passée la décision est devenue défénitive, incontestable et éxécutoire, on
-peut alors forcer l'autre personne à executer la décision.
-Exemple : user les service d'un huissier .
+Le partiel est fait pour des personnes ayant des documents.
+Il y a des questions sur:
 
-Toute les personnes concerné par le procet peuvent faire appels.
-Exemple en pénale : Le parquet ou le procureur peut faire appel, dans le cas
-d'une décision trop douce.
+* Du cours. (simple)
+* Des documents. Les documents seront par exemple des décisions de justice. Ils seront annoté pour nous aider.
 
-### La cour d'appel
+Méthode pour les documents:
 
-Pourquoi peut on faire appel : pour tout motifs.
+* Il faut isoler les points essentiels.
+  * Que veut le demandeur ?
+  * Que répond l'autre ?
+  * etc..
+* Se faire des schémas au brouillon est recommandé pour ne pas s'embrouiller.
 
-En appel on peut contester pour tout motif comme :
+Méthode pour le qcm:
 
-  - Les faits
-  - L'interprétation de la loi
-  - L'application des droit au faits
+* Il se peut qu'il y ai une question annormalement difficile $\rightarrow$ ne pas bloquer dessus.
+* Qcm a points négatif (+1, 0, -0.5)
 
-La cour d'appel vas alors reprendre l'affaire a zéro, dans son intégralité.
-Elle sont commune aux juridictions civiles et pénales
-Les juges d'appels sont issus l'école de la magistrature, ils sont plus
-expérimentés que les juges de première instance. Il y a 34 cours d'appel en
-France.
-La cour d'appel a deux option :
+**ATTENTION** : Partir avant l'heure peut nous bloquer les rattrapages.
 
-  - elle est d'accord avec la première décision et donc elle confirme la
-décision.
-  - elle n'est pas d'accord avec la première décision, elle infirme la première
-décision et la remplace par sa propre décision.
+Temps estimé de révision : 2~3h + être attentif en cours
 
-La décision de la cour d'appel est directment applicable. Faire appel suspend
-la désion du tribunal. Si quelqu'un abuse de l'appel, le tribunale peut dire
-que sa décision est provisoirement éxécutable (seulement sur quelque chose qui
-n'est pas contestable).
-Exemple : dans le cas des prud'homme, un salarié demande :
+# Juridiction
 
-  - Des indémnités
-  - Son sertificat de travail
+Quelque soit l'affaire et son importance, on commence par une instance du 1^er^ degré.
 
-Son avocat va alors demander l'éxécution provisoire pour la remise des
-documents.
+Une fois que le tribunal à donné sa décision s'ouvre un délais de 30 jours oú le justiciable peut faire appel a la décision. (Délais de contestation)
+Pendant ce délai la décision n'est pas applicable.
+Si personne n'a contesté, cette decision devient définitive. De ce fait, elle devient exécutable.
+Il n'est possible de contester (faire appel) qu'une seule fois.
 
-La cour d'appel d'assise, est une cour d'appel spéciale, seulement pour la cour
-d'assise (création de cette cour après 2000).
+*Ex*: Un salarié qui conteste son licensiement s'il a gain de cause il a bout de 30 jours les moyens d'appliquer la décision de justice.
 
-Le mot pour dire faire appel : **intergeter**
+## Contestation d'une décision de justice
 
-### Cour de cassation
+Le terme exacte est "interjeter appel".
 
-Il y a une seule cour de cassation située à Paris, son rôle est d'harmoniser
-les décisions de justice. Tout cela d'un point de vue matière mais aussi de
-manière géographique.
+On demande à la cours d'appel de reprendre l'affair dans son intégralité.
+Il y a 36 cours d'appel uniquement.
+La demande est saisi par l'une des parties du procés. Elle peut être invoqué pour
+tous les motifs. Même si elle a eu gain de cause. Cependant cela est a ses risques et périls, le résultat est entièrement revu.
 
-La cour de cassation est séparé en 6 chambre :
+Au pénal, l'Etat et l'accusé peut faire appel. La partie civil ne peut pas car elle est juste témoin.
 
-  - 3 civile
-  - criminel
-  - commercial
-  - sociale
+L'appel est suspend la décision du tribunal. La nouvelle décison de la cours d'appel
+est elle directement applicable.
 
-La cour de cassation, regarde s'il n'y a pas de vices de procédures, de
-contradiction, son rôle se limite à veiller a la bonne interprétation du
-droit. La cour de cassation n'est en aucun la pour trancher un litige,
-elle est juste là pour veiller à ce que les juges fassent bien leur travail.
+**Remarque**: Dans les affaires de trop faible importance, on ne peut pas faire appel. (3 000 est trop peu par example)
 
-Le mode de saisi de la cour de cassation est toujours le même, on se pourvoi
-cassation. Le pourvoi demande toujours la même chose, casser une décision.
-Un pourvoi se divise en moyens qui sont eux même divisé en branches.
+## Cours de cassation
 
-```
-APPEL -> CASSATION -> accord avec l'appel = FIN
-                   -> accord avec le pourvoi = casse et annule et renvoie dans une autre cour d'appel
-```
+Dans le cas d'une petite affaire ou l'on ne peut pas faire appel ou apres un appel un partie peut aller en cous de cassation.
+
+La cours de cassation n'est pas un 3^eme^ degré.
+Elle a le rôle particulier de juger en droit sans s'occuper des faits.
+
+
+Elle est unique (il n'y en a qu'une), ce qui est logique puisque son but est de faire en sorte que la loi soit interprété de la même manière partout.
+
+Elle juge la décision de justice mais pas l'affaire. Elle regarde si le droit à été appliqué correctement.
+Elle ne revient pas sur les fais qui ont amener les parties.
+
+On saisit cette cours (on appel cela un **"pourvoit"**) dans le but de casser (cassation $\rightarrow$ casser) et non dans l'espoir de montrer que l'on a raison.
