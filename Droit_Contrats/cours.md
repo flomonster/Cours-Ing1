@@ -4,6 +4,12 @@ author: [Moin Marie]
 date: 2018-02-09
 ...
 
+Site de référence :
+
+* [https://www.legifrance.gouv.fr/](Legi france)
+* [https://www.legalis.net/](Legalis)
+* [http://droit-technologie.org/](Droit technologie)
+
 # Condition de validité
 
 Si on veut qu'un contrat s'execute bien il faut s'assurer que les parties
@@ -94,3 +100,11 @@ Un contrat dés lors qu'il a été formé il tient lieu de loi pour les parties.
   * Il y a aussi les ayants droits.
 * Les contres lettres
 * Les tiers au contrat (ils peuvent aussi être concerné)
+
+Le décè n'annule pas forcément un contrat. Il fait partie de l'héritage.
+
+Le contrat ne créer pas d'obligation sur les tiers. Mais les tiers peuvent
+être **opposable**.
+
+> Certains contrats crée une situation juridique nouvelle qui ne peut pas
+être ignoré des tiers. (Ex: un changement de propriétaire).
