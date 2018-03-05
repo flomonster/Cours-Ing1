@@ -26,7 +26,7 @@ Il y a plusieur facons de voir le lambda calcul.
 Il y a des :
 
 * Variables
-* Functions
+* Functions (Abstraction)
 * Applications
 
 Il n'y a pas de types !
@@ -142,3 +142,95 @@ Propriété :
 > **B-Reduction est Church-Rosser**
 
 Donc tous les termes a au moins une unique forme normale.
+
+# Types
+
+Le lambda calcul est un vrai langage fonctionnel. On peut donc représenté
+les types classiques voici comment.
+
+## Booleen
+
+On aimerai un booleen qui soit une fonction qui prend deux arguments.
+
+$MNL$
+
+Si le booleen est vrai il renvoi le premier argument $N$ sinon $L$.
+
+* $T := \lambda ab.a$
+* $F := \lambda ab.b$
+
+## Integer
+
+$n := \lambda f . \lambda x . f^nx = \lambda f . \lambda x . (f...(f x)...)$
+
+Donc:
+
+* $0 = \lambda fx.x$
+* $1 = \lambda fx.f x$
+* $2 = \lambda fx.f (f x)$
+* $3 = \lambda fx.f (f (f x))$
+
+## Succ
+
+$succ := \lambda n. \lambda f. \lambda x.f(nfx)$
+
+## Plus
+
+$plus := \lambda m . \lambda n . \lambda f . \lambda x . mf(nfx)$
+
+## Pair
+
+* $pair := \lambda x y . \lambda f . fxy$ (Constructeur)
+* $first := \lambda p . pT$ (Accesseur 1^er^ element)
+* $second := \lambda p . pF$ (Accesseut 2^nd^ element)
+
+# Recursion
+
+On utilise les combinateurs de points fixes. Il en existe plusieurs par exemple:
+
+Curry's $Y$ Combinator:
+
+> $Y := \lambda f . ( \lambda x . f(xx))(\lambda x . f(xx))$
+
+Turing; s $\Theta$ Combinator:
+
+> $\Theta := (\lambda xy . y(xxy))(\lambda xy . y(xxy))$
+
+# Logique combinatoire
+
+L'idée est quue l'on a plus besoin de $\lambda$.
+
+On a besoin de:
+
+* $I$ fonction identité
+* $K$ fonction boolean (True)
+* $S$ fonction distributeur
+
+Tq:
+
+* $I x = x$
+* $K x y = x$
+* $S x y z = x z (y z)$
+
+La logique combinatoire à la même expressivité que le lambda calcul.
+
+C'est très simple mais peut lisible du coup on a garder le lambda calcul.
+
+# Lambda calcul typé
+
+La notion de type sont des objets syntaxique associé a un terme.
+
+Cela a pour but d'interdir des lambdas termes qui ne peuvent pas se normaliser
+et qui ont par ailleur pas beaucoup de sens.
+
+Exemple:
+
+$\omega := \lambda x . xx$
+
+On a un symbol $\rightarrow$ et un ensemble de types ($\alpha, \beta, \dots$)
+
+$\alpha \rightarrow \beta \rightarrow \gamma = \alpha \rightarrow
+(\beta \rightarrow \gamma)$
+
+$\lambda^{\rightarrow}$ est fortement normalisable. C'est a dire que
+tout lambda expression (typé) est normalisable.
