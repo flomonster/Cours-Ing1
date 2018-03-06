@@ -108,3 +108,97 @@ Le contrat ne créer pas d'obligation sur les tiers. Mais les tiers peuvent
 
 > Certains contrats crée une situation juridique nouvelle qui ne peut pas
 être ignoré des tiers. (Ex: un changement de propriétaire).
+
+En cas d'inexecution total ou partiel ou de retard dans l'execution on peut
+mettre en jeu la responsabilité contractuel.
+
+Il y a deux type d'obligations:
+
+* Il y a une **obligation** de résultat quand on s'engage sur un résultat précis.
+* Il y a une **obligation** de moyen lorsqu'il s'engage à tout mettre en oeuvre
+pour parvenir a un résultat.
+
+Ex: Dans un contrat de vente, le vendeur est débiteur de la livraison et il est
+créentier du client. L'acheteur est débiteur du prix et creentier de la livraison.
+
+Ex: Un médecin s'engage à tout faire pour guérir mais pas sur la guérison.
+
+Qui doit prouver quoi ?
+
+* Dans une **obligation de moyen**, si l'obligation n'est pas bien executé c'est
+a celui qui prétend qu'elle a été mal executé de le prouver.
+  * *Ex*: C'est au malade de prouver que le médecin ne lui à pas donné tous les bon
+soins.
+* Dans une **obligation de résultat**, c'est au débiteur de prouver le résultat.
+  * *Ex*: Le médecin doit informer le patient, c'est donc à lui de prouver qu'il
+  vous à informé. (Il fait donc signer un document)
+
+**ATTENTION**: C'est le juge qui décide s'il s'agit d'une obligation de moyen ou
+de résultat.
+
+Quand le créentier joue un rôle actif, en règle général, le juge décide qu'il
+s'agit d'une obligation de moyen. Autrement s'il est passif c'est une obligation
+de résultat.
+
+*Ex*: Le conseil dans un contrat (informatique) c'est une obligation de moyen
+car, on ne peut pas conseiller bien quelqu'un qui exprime mal son besoin.
+
+Dans un même contrat on a souvent des obligations de moyen et de résultat.
+On raisonne obligation sur obligation et pas sur un contrat en entier.
+
+Ce qui compte est la maniere dont les engagements seront rédigé pour qu'il
+soit qualifié comme une obligation de moyen/résultat.
+
+*Ex*: Obligation de sécurité du transporteur. Il a été décidé que le transporteur
+ai une obligation de résultat durant le trajet. Mais durant l'embarquement et
+le débarquement, il s'agit d'une obligation de moyen.
+
+Lors d'un accident il faut savoir quand à eu lieu précisement l'accident.
+
+Il faut savoir que le responsable peut s'exonérer. Ca peut la faute d'un tier,
+du créentier ou un cas de force majeur.
+
+*Ex*: Le transporteur n'est pas responsable s'il y a une attaque terroriste.
+
+S'il n'y a pas de responsable alors il n'y a pas d'indemnisation.
+
+Parfois les décisions de justices peuvent sembler severe mais c'est parceque
+l'on veut une bonne indemnisation des victimes. De plus se sont les assurances
+qui payent.
+
+# Dommage et interet
+
+Dans le cas ou des dommages et interet sont versé il y a un certain nombre de
+règles à respecter. Les interet sont la pour indemniser la perte subit et le
+gain manqué. Il couvre le préjudice subit mais pas des dommages qui ne sont pas
+prévisible lors du contrat. On couvre uniquement le dommage mais pas plus
+(contrairement aux USA).
+
+On peut prévoir des closes de pénalité lors du contrat. Mais le juge peut
+les revoirs s'il les considére excessive ou dérisoir.
+
+Il peut y avoir des dommages et interet pour un retard d'execution.
+
+* Si ca porte sur une somme d'argent, on appelle ca des dommages et interet
+moratoire. On a pas a prouver il y a de fait un prejudice. Si rien a ete prevu
+il y a un taux prévu.
+
+# Responsabilité civil non contractuel
+
+Ancien article 1382 du code civil, maintenant le 1240:
+
+> Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui
+par la faute duquel il est arrivé, à le réparer.
+
+Cette responsabilité se décline:
+
+Article 1241:
+
+> Chacun est responsable du dommage qu'il a causé non seulement par son fait,
+mais encore par sa négligence ou par son imprudence.
+
+Article 1242:
+
+> On est responsable non seulement du dommage que l'on cause par son propre
+fait, mais encore de celui qui est causé par le fait des personnes dont on doit
+répondre, ou des choses que l'on a sous sa garde.
