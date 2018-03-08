@@ -1,5 +1,5 @@
 ---
-title: "System 7"
+title: "File System"
 author: [Amsallem Florian]
 date: 2018-03-07
 ...
@@ -141,3 +141,93 @@ On veut un nouveau format qui permet de régler ces problemes...
 * Les partition sont de table variable
 
 ![GUID partition table scheme](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GUID_Partition_Table_Scheme.svg/1200px-GUID_Partition_Table_Scheme.svg.png)
+
+## Superblock
+
+C'est un header qui fait la taille d'un block il contient:
+
+* L'**inode** de la racine (root) du filesystem
+* La date de la derniere fois qu'il a été monté
+* Indication du début du filesystem, il est impossible de retrouver ce qu'il y a dans le fylesystem si le superblock est cassé
+
+Il est donc critique, s'il n'est plus la on a perdu notre filesystem.
+
+Il nous faut donc de la **redondance**, il y en a généralement un au début et un à la fin du filesystem.
+
+Mais il peut ne pas être au début ex: **ISO** il est au 16^eme^ block.
+L'intéret est de pouvoir stocker d'autre super block avant (pour le booter
+par exemple).
+
+### Let's discover
+
+Dans un super block il y a par exemple:
+
+* Des informations fixes:
+  * Le nombre d'**inode**
+  * le premier **inode**
+  * Le nombre de block
+
+* Des informations variables:
+  * Le nombre de block libre / utilisé:
+  * ...
+
+Pour implementé nos block (pouvoir les retrouver rapidement) on utilise un btree.
+
+Dans un inode  il y a par exemple :
+
+* Le mode
+* l'uid de l'utilisateur
+* Date: modifié, créée ...
+* Un tableau de block (les blocks utilisés par le fichier) composé de
+  * Pointeur sur data
+  * Pointeur sur indirect block (2 pointeurs sur data)
+  * Pointeur sur double indirect block (4 pointeurs sur data)
+  * Pointeur sur triple indirect block (8 pointeurs sur data)
+
+![Ext2 Inode](https://www.tldp.org/LDP/tlk/fs/ext2_inode.gif)
+
+**Mapping private** : 
+
+
+> L'espace mémoire n'est accessible seulement par le program ayant mappé l'espace mémoire 
+
+**Mapping shared** : 
+
+> Il faut commit les changement fait sur l'espace mémoire pour tout le monde.
+
+![Linux Kernel IO Architecture](https://image.slidesharecdn.com/kr2015-jankara-151005202135-lva1-app6891/95/kernel-recipes-2015-linux-kernel-io-subsystem-how-it-works-and-how-can-i-see-what-is-it-doing-4-638.jpg?cb=1444077109)
+
+### Block layer
+
+Requêtes d'IO:
+
+* Point de départ, longueur, lecture, écriture, ...
+* La vie d'une requête possible :
+
+### IO (Input / Output) Scheduler
+
+* **NOOP** : 
+    * Pas de scheduling, on prend les requêtes dans l'ordre.
+    * Ca sert pas à grand chose.
+* **Deadline** : 
+  * Préfère les lectures aux écritures (on avantage le userland).
+  * Tri les requêtes de manière à réduire les deplacements (seek).
+  * A pour but de dispatch les requêtes avec un temps de réponse inférieur à une **deadline**. Les taches qui ont une deadline qui est dépassé vont passé prioritaire.
+* **CFQ** :
+    *  Préfères les requêtes **synchrones**. Elles sont **bloquantes** donc on veut les finir plus rapidement.
+    *  Tri dans le but d'être juste avec les tâches.
+    *  Supporte les prioritées d'IO.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
