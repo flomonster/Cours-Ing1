@@ -14,7 +14,14 @@ Ubuntu:
 apt install texlive pandoc
 ```
 
-Conseil installez le template [ICI](https://github.com/Wandmalfarbe/pandoc-latex-template)
+Archlinux:
+
+```
+pacman -S texlive-core pandoc
+```
+
+Conseil vous pouvez utiliser **HackMD** (voir ci-dessous) pour compiler en
+ligne les cours.
 
 ### Header
 
@@ -38,14 +45,9 @@ date: 2017-10-20
 pandoc --template eisvogel --listing moncours.md -o moncours.pdf
 ```
 
-## Floobits
+## HackMD
 
-Floobits vous permet d'editer a plusieur sur le meme document.
-Vous pouvez l'utiliser avec plusieur editeur:
+HackMD vous permet de prendre des notes a plusieur et d'avoir un apercus en
+direct !
 
-* [Vim](https://github.com/Floobits/floobits-vim)
-* Sublime Text
-* IntelliJ
-* Directement sur l'editeur en ligne
-
-[![Floobits Status](https://floobits.com/flomonster/Cours-S5.svg)](https://floobits.com/flomonster/Cours-S5/redirect)
+[HackMD](https://hackmd.io/)
