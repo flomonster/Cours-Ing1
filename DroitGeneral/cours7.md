@@ -4,54 +4,89 @@ author: [Moin Marie]
 date: 2018-03-12
 ...
 
-## Cours de cassation
+# Cour de cassation
 
-### Cassation partiel
+Si la cours de cassation casse alors elle renvoi l'affaire.
 
-Cassation partiel, la cour se dit compétente pour certain points. Le renvoi est
-donc aussi partiel.
+## Cassation partiel
 
-Shema d'appel possible :
+Cassation partiel, la cour se dit compétente pour certain points. Le renvoi est donc aussi partiel.
+
+Schema d'appel possible :
 ```
-  Cour d''appel 1
+  Cour d'appel 1
   -> cour de cassation
-  -> cour d''appel 2
+  -> cour d'appel 2
   -> cour de cassation 2
-  -> cour d''appel 3
+  -> cour d'appel 3
   -> cour de cassation 3
 ```
 
-Dans ce cas là si la cour de cassation rejète, c'est la fin, sinon de nouveau
-retour en appel.
+Dans ce cas là si la cour de cassation rejète, c'est la fin, sinon de nouveau retour en appel.
 
-## Procédure civile
+Un proces peut être long !
+
+# Action en justice
+
+Pour saisir le juge il faut avoir un interet en justice.
+
+Cet interet doit être :
+
+* Légitime
+    * Fonder sur un droit
+* Personelle
+    * On peut agi uniquement pour soi. Même en cas de représentation (d'un mineur par exemple). La seul exception est les actions de groupe.
+* Née
+    * Il faut que la loi n'ait pas été appliqué.
+* Le juge peut être saisis pendant un certain délais.
+    * Cela peut aller de quelques mois à une trentaine d'années.
+    
+# Procédure civile
+
+La procédure civile est accusatoire.
 
 Ce sont les deux partis qui font tous, le juge n'ait qu'un arbitre.
-L'action sera à l'initiative des partis. Il doit y avoir un intéret à agir,
-cet intéret doit être née, actuel, légitime et personnel.
-Il faut demander au juge de trancher sur un litige, il faut donc prétendre
-qu'une loi n'a pas été respectée.
-Je peux saisir le juge pour moi mais non pour mon voisin.
-L'action de groupe est réservé seulement dans le cas du droit à la consomation.
+
 On ne peut saisir le juge que quand l'acte à été commis.
-Le juge peut être saisis pendant un certain délais, cela peut aller de quelque
-mois à une trentaine d'années.
 
-Inquisitoire :
+La procédure est à tiroir on peut donc demander des choses dans le cas ou le juge ne nous donne pas raison sur un premier point, etc...
 
-> Ce sont les partis civiles qui fixent elles même les contour du litige
+Cette procédure est **gratuite**. Exception :
 
-Le juge ne dira jamais **vous auriez pu demander cela** c'est donc au partis
-de demander tout ce qu'ils veulent et au juge de trancher.
+* Les frais de représentation ne le sont pas (frais d'avocats).
+* Les dépends.
 
-Chacun doit connaitre les arguments / demandes / preuves de l'autre parti.
-A tout moment, les partis peuvent intérompre leur procédure.
-Le partis gagnant peut demander un remboursement des frais qu'il a engagé.
-(Ne pas regarder l'article 700)
+Tout le monde a le droit à un avocat qui est commis d'office.
+
+Le parti gagnant peut demander un **remboursement** des frais qu'il a engagé. (Ne pas regarder l'**article 700**) C'est le juge qui décide si le gagnant sera remboursé et le **montant**, il n'a pas à justifier sa décision.
 
 Débouter :
 
-> refuser d'acceder à une demande
+> Refuser d'acceder à une demande
+
+Inquisitoire :
+
+> Ce sont les partis civiles qui fixent elles même les contour du litige.
+
+Le juge ne dira jamais **vous auriez pu demander cela** c'est donc au partis de demander tout ce qu'ils veulent et au juge de trancher.
+
+Chacun doit connaitre les **arguments** / **demandes** / **preuves** de l'autre parti.
+
+A tout moment, les partis peuvent intérompre leur procédure.
+
 
 Ce sont aux partis de récolter leur preuves. A titre exeptionnel un juge peut
 aider dans la recherche de preuve (test de paternité)
+
+## La preuve
+
+Ce qu'on ne peut pas prouver légalement n'existe pas.
+Il faut toujours penser à la tracabilité. Attention aux preuves illégales.
+
+Moyen de preuve :
+
+* L'écrit. Une suite de symbole qui doit être daté signé les sommes doient être écrit en chiffre et en lettre.
+* Témoignage
+* Présomption : La preuve d'un fait inconnu déduit par des faits connus.
+    * Irréfragable : Un recu avec la mention aquité
+* L'aveu
