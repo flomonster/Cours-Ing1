@@ -234,3 +234,12 @@ $\alpha \rightarrow \beta \rightarrow \gamma = \alpha \rightarrow
 
 $\lambda^{\rightarrow}$ est fortement normalisable. C'est a dire que
 tout lambda expression (typé) est normalisable.
+
+# Sequent
+
+Un sequent est une suite d'hypothèses suivie d'une suite de conclusions, les
+deux suites etant usuellement séparées par le symbole $\displaystyle\vdash$.
+
+## System LK
+
+Logistischer Klassischer.
