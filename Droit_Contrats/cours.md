@@ -202,3 +202,28 @@ Article 1242:
 > On est responsable non seulement du dommage que l'on cause par son propre
 fait, mais encore de celui qui est causé par le fait des personnes dont on doit
 répondre, ou des choses que l'on a sous sa garde.
+
+# Soutenance
+
+Par groupe de 3/4.
+
+Choisir un contrat qui existe (eviter contrat de travail).
+Il faut prendre quelque chose de simple. Conseil prendre le droit de la
+consomation.
+
+Il faut l'analyser et regarder se qu'il manque.
+Il faut essayer de déterminer s'il est légal ou pas.
+
+S'il est légal il faut le transformer pour le rendre à la limite d'acceptable:
+Ex: Un contrat sur la consomation -> des clauses abusives.
+
+Il faut du coup avoir quelque chose qui soit discutalbe sur ca légalité.
+
+-----
+
+Il faut déterminer le risque juridique de la clause (coté vendeur).
+Pour cela il faut chercher des juriceprudences [ICI](https://www.legifrance.gouv.fr/initRechJuriJudi.do).
+
+Ensuite il y aura une réunion pour avoir des indications.
+
+Pour finir il y aura une soutenance finale.
