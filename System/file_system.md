@@ -218,16 +218,105 @@ Requêtes d'IO:
     *  Tri dans le but d'être juste avec les tâches.
     *  Supporte les prioritées d'IO.
 
+# Scheduling
 
 
+![Process lifecycle](https://applied-programming.github.io/Operating-Systems-Notes/images/processlifecycle.png)
+
+### Qu'est qu'un algo de scheduling efficace ?
+
+On a envie que notre algo de shceduling ne prenne pas trop de temps a choisir son process. 
+Plus de temps de selection alors, moins de temps pour l'execution.
+
+On va essayer d'être:
+
+* **Équitable**
+* **Rapide** $\Theta(1)$ (En vrai on sera en constant amorti, ne change pas en fonction du nombre de process)
+* Ne jamais oublier un process dans un coin (No starvation)On veut éviter les **famines** (starvation) (un process qui ne tourne jamais).
+
+### Quelles métriques nous intéresse pour pouvoir mesurer la performance de nos algos ?
+
+* Temps passé en ready (waiting time)
+    * Exemple on a une tache qui fait de la lecture genre un shell on veut avoir un process réactif.
+* Temps pour passer de **new** à **running** 
+    * Temps qu'une nouvelle tâche va prendre pour s'éxécuter (Response time), on cherchera à le miniser
+* Turn around time
+    * Temps entre **new** de l'application et **terminated**.
+* Throughtput
+    * Le nombre de tâche finies par unité de temps.
+* Execution Time
+    * Temps passé en running
 
 
+Regarder en temps CPU, découper en partis, CPU en user (exécuter), en temps Kernel (sceduler, passer en waiting) Maximiser le CPU à passer en mode user. 
 
+Tâche doit être interative (dans sa globalitée elle fait beaucoup de syscall), répondre rapidement.
 
+Il y a d'autres applications qui vont très peut intéragir. Ce sont des applications qui vont faire peut de syscalls.
 
+On a donc globalement deux types de tâches.
 
+:::info
+Une tâche peut être qualifié interactif, va faire des calculs pendant un certain temps puis re-être interactif (Ex: compilateur)
+:::
 
+Le goulot d'étranglement ralentit, empeche d'aller plus vite
+C'est souvent l'IO, mais ca peut être aussi le CPU / RAM pour un compilateur. Ca peut être le réseau aussi pour certaines applis.
 
+* IO Bound (Syscall bloquants)
+    * Pour les tâches intéractives.
+    * Minimiser le waiting time
+    * Minimier le quentum
+* CPU Bound 
+    * Pour les tâches calculatoires.
+    * L'augmentation du waiting time importe peu
+    * L'augmentation du quentum importe peu
 
+### Quels sont les métriques à minimiser pour les tâches IO bound, CPU bound.
 
+* Import les process IO bound
+    * **Waiting time**
+* Import les process CPU boud
+    * **Throughput** (Débit plus rapide)
 
+Le but du jeu est de minimiser l'execution time. 
+
+TLB cache de pagination, tache cpu bound lui faire tourner longtemps sur le CPU pour rentabiliser le temps de cache.
+
+Le waiting time d'un CPU bound peut être élevé tourne moins souvent, IO bound (à check) plus souvent et moins longtemps comme ca c'est répartie
+
+> Comment le kernel sait si un process est IO ou CPU bound ?
+
+Il suffit de compter les syscall et avoir des euristiques dessus.
+
+On va ajouter des queues en fonction de leur niveaux de priorité pour l'état **ready**.
+
+**CPU** bound **basse priorité**, **IO** bound une **haute priorité**.
+
+* Running $\rightarrow$ Ready (quantum finit) : La priorité va baissé mettre dans une queue plus basse,
+* Waiting $\rightarrow$ Ready : La priorité va monter.
+
+### Parenthése pipeline et prédiction de branche
+
+Pour chaque inscription on fait ces 5 étapes
+Fetch - Decode - Execute (add/sub/mov) - Memory (Read write memory) - Write back (si on read c'est bien de marquer la valeur)
+
+![Pipelining](https://www.cs.uaf.edu/2011/spring/cs641/proj1/acornachione/im2.png)
+
+Améliorer le temps de ces instruction on peut subdiviser chaque tache :
+
+* Bonne idée
+    * Améliore la frequence des micro processeur (Ex : intel pentium 35 étages)
+* Mauvaise idée
+    * Certaines instructions sont conditionnel on ne peut donc pas executer les instructions suivantes tant qu'elle n'est pas fini.
+    * Chaque jump va ralentir énormément (Trash les étages inutiles)
+
+#### Epiquote
+
+Multun:
+
+> C'est un cour de scheduling très serieux
+
+Gaby:
+
+> Bah ouai regarde... TG!
