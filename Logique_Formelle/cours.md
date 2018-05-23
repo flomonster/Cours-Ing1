@@ -243,3 +243,66 @@ deux suites etant usuellement séparées par le symbole $\displaystyle\vdash$.
 ## System LK
 
 Logistischer Klassischer.
+
+# Logique constructiviste
+
+Contrairement a la logique classique qui ne fait que découvrir la vérité, la
+logique constructiviste créer de nouvelle preuve.
+
+On considére que les choses ne sont pas forcément vraie ou fausse. On
+supprime le **tier exclus**.
+
+Qu'est ce que ca veut dire de réfléchir par l'absurde ?
+
+> On l'utilise pour prouver l'inexistance d'un objet (Ex: $\sqrt{2} \notin \mathbb{Q}$).
+
+Mais on peut aussi l'utiliser pour prouver l'existance d'un objet sans pouvoir
+le construire.
+C'est génant, on appelle ca le probleme de constructivité.
+
+On aimerai être capable d'exiber un témoins des preuves d'existance.
+
+Ex:
+
+> Il existe des réels qui ne peuvent pas etre ecrit par un programme (meme s'il
+tourne à l'infini). Car il y a une bijection entre les programme et $\mathbb{N}$.
+Alors que $\mathbb{N} < \mathbb{R}$
+
+Une frontiere entre math et informatique est la constructibilité:
+
+* L'informaticien s'en moque de savoir si un objet existe il veut pouvoir le
+construire.
+* Le matématicien s'en moque de la constructibilité il veut savoir si un ensemble
+est plus grand qu'un autre ou si un objet a une propriété.
+
+## Elimination du tier exclus
+
+Plein de chose vienne du tier exclu et qui seront donc éliminer en logique
+intuitionniste.
+
+Exemple:
+
+* La double négation
+* La suppression de la négation
+* La contradiction
+
+On va donc s'interdir la négation. On définit alors:
+
+$\neg A$  revient à écrire $A \implies \bot$
+
+On peut toujours prouver: $\neg \neg A \vdash A$ et $\neg \neg \neg A \vdash \neg A$
+
+On a super donc super envi de supprimer la double négation mais on ne peut pas
+car ca ne marche pas dans tous les cas.
+
+## Calcul des séquent en intuitionniste
+
+la régle du calcul intuitionniste:
+
+* A droite du séquent on a une seule formule a droite du séquent. (Alors qu'en
+classique on peut avoir un groupe de formule)
+
+On peut montrer ca en introduisant les polarités.
+
+En résumé, souvent quand on fait des preuves par l'absurde on perd quelque chose
+qui est la constructibilité.

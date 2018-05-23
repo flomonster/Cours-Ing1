@@ -186,12 +186,12 @@ Dans un inode  il y a par exemple :
 
 ![Ext2 Inode](https://www.tldp.org/LDP/tlk/fs/ext2_inode.gif)
 
-**Mapping private** : 
+**Mapping private** :
 
 
-> L'espace mémoire n'est accessible seulement par le program ayant mappé l'espace mémoire 
+> L'espace mémoire n'est accessible seulement par le program ayant mappé l'espace mémoire
 
-**Mapping shared** : 
+**Mapping shared** :
 
 > Il faut commit les changement fait sur l'espace mémoire pour tout le monde.
 
@@ -206,10 +206,10 @@ Requêtes d'IO:
 
 ### IO (Input / Output) Scheduler
 
-* **NOOP** : 
+* **NOOP** :
     * Pas de scheduling, on prend les requêtes dans l'ordre.
     * Ca sert pas à grand chose.
-* **Deadline** : 
+* **Deadline** :
   * Préfère les lectures aux écritures (on avantage le userland).
   * Tri les requêtes de manière à réduire les deplacements (seek).
   * A pour but de dispatch les requêtes avec un temps de réponse inférieur à une **deadline**. Les taches qui ont une deadline qui est dépassé vont passé prioritaire.
@@ -225,7 +225,7 @@ Requêtes d'IO:
 
 ### Qu'est qu'un algo de scheduling efficace ?
 
-On a envie que notre algo de shceduling ne prenne pas trop de temps a choisir son process. 
+On a envie que notre algo de shceduling ne prenne pas trop de temps a choisir son process.
 Plus de temps de selection alors, moins de temps pour l'execution.
 
 On va essayer d'être:
@@ -238,7 +238,7 @@ On va essayer d'être:
 
 * Temps passé en ready (waiting time)
     * Exemple on a une tache qui fait de la lecture genre un shell on veut avoir un process réactif.
-* Temps pour passer de **new** à **running** 
+* Temps pour passer de **new** à **running**
     * Temps qu'une nouvelle tâche va prendre pour s'éxécuter (Response time), on cherchera à le miniser
 * Turn around time
     * Temps entre **new** de l'application et **terminated**.
@@ -248,7 +248,7 @@ On va essayer d'être:
     * Temps passé en running
 
 
-Regarder en temps CPU, découper en partis, CPU en user (exécuter), en temps Kernel (sceduler, passer en waiting) Maximiser le CPU à passer en mode user. 
+Regarder en temps CPU, découper en partis, CPU en user (exécuter), en temps Kernel (sceduler, passer en waiting) Maximiser le CPU à passer en mode user.
 
 Tâche doit être interative (dans sa globalitée elle fait beaucoup de syscall), répondre rapidement.
 
@@ -267,7 +267,7 @@ C'est souvent l'IO, mais ca peut être aussi le CPU / RAM pour un compilateur. C
     * Pour les tâches intéractives.
     * Minimiser le waiting time
     * Minimier le quentum
-* CPU Bound 
+* CPU Bound
     * Pour les tâches calculatoires.
     * L'augmentation du waiting time importe peu
     * L'augmentation du quentum importe peu
@@ -279,7 +279,7 @@ C'est souvent l'IO, mais ca peut être aussi le CPU / RAM pour un compilateur. C
 * Import les process CPU boud
     * **Throughput** (Débit plus rapide)
 
-Le but du jeu est de minimiser l'execution time. 
+Le but du jeu est de minimiser l'execution time.
 
 TLB cache de pagination, tache cpu bound lui faire tourner longtemps sur le CPU pour rentabiliser le temps de cache.
 
@@ -310,13 +310,3 @@ Améliorer le temps de ces instruction on peut subdiviser chaque tache :
 * Mauvaise idée
     * Certaines instructions sont conditionnel on ne peut donc pas executer les instructions suivantes tant qu'elle n'est pas fini.
     * Chaque jump va ralentir énormément (Trash les étages inutiles)
-
-#### Epiquote
-
-Multun:
-
-> C'est un cour de scheduling très serieux
-
-Gaby:
-
-> Bah ouai regarde... TG!
