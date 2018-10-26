@@ -11,3 +11,6 @@
 # Floobits
 *.floo
 *.flooignore
+
+# Unignore pdf
+!.pdf
