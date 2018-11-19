@@ -48,8 +48,8 @@ $a^nb^n$
 Pour determiner qu'un langage n'est rationnel on peut utiliser le
 lemme de pompage:
 
-$m \in L\\$
-$\exists k \in \mathbb{N}, |m| > k\\$
+$m \in L$
+$\exists k \in \mathbb{N}, |m| > k$
 $m = uvw$ tq:
 
 * $|v| \geq 1$
@@ -62,9 +62,9 @@ $uv^iw \in L$
 
 Soit $L = a^nb^n$ avec $n \in \mathbb{N}$
 
-$m = a^nb^n$ donc $a\dots|ab|\dots b\\$
-$u = a^i\\$
-$v = a^{n-i}b^{n-j}\\$
+$m = a^nb^n$ donc $a\dots|ab|\dots b$
+$u = a^i$
+$v = a^{n-i}b^{n-j}$
 $w = b^j$
 
 Cela ne marche pas car:
@@ -110,4 +110,4 @@ Du coup $Pref(L)$ est rationel (par recurence).
 L'inclusion ne preserve pas la rationalite dans un sens comme
 dans l'autre.
 
-\danger Il faut revoir les algos qui sont decrit dans le poly.
+ATTENTION: Il faut revoir les algos qui sont decrit dans le poly.
