@@ -23,7 +23,7 @@ date: 2017-10-18
                       $\neg$ -> 0
                       $\top, \bot$ -> -1
 
-  Sommes cumulées: ($\sum\limits\_{i = 1}^$\omega$ $\upsilon$(si) = (Sk)k $\preceq$ n)
+  Sommes cumulées: ($\sum$$\lim_{i = 1} \omega\upsilon$(si) = (Sk)k $\preceq$ n)
 3. Conditions d'arrêts: Stop si $\exists$ k $\preceq$ n Sk = -1, renvoye k
                              si Sn est calculé
 
@@ -36,9 +36,9 @@ Par induction sur la construction des formules
 et $\upsilon$(s) = -1. Arrêt à -1, on accepte $\phi \in$ F0.
   * Constructeurs: Supposons $\phi et \psi$ deux éléments de F0 validant le critère.
 *Par hypothèse d'induction*: Pour $\phi$: s1 ... sn => $\upsilon$(s1) -> -1
-                             Pour $\psi$: $\theta$1 ... $\theta$n => $\upsilon$($\theta$1) -> -1
+Pour $\psi$: $\theta$ 1 ... $\theta$ n => $\upsilon$($\theta$ 1) -> -1
   Considérons h = $\wedge \phi \psi$, en mettant h dans l'algo, on a
-Pour h: $\wedge$ s1 ... sn $\theta$1 ... $\theta$2 => 1 1 + $\upsilon$(s1) -> 0 $\upsilon$($\theta$1) -> -1
+Pour h: $\wedge$ s1 ... sn $\theta$ 1 ... $\theta$ 2 => 1 1 + $\upsilon$(s1) -> 0 $\upsilon$($\theta$ 1) -> -1
 Notons que pour $\upsilon$($\wedge$) = $\upsilon$($\vee$) d'où le raisonnement est
 de même pour les autres opérateurs.
 
@@ -58,7 +58,7 @@ Pour chaque $\lambda$: $\nu$ -> {vrai, faux}. On se donne ||A||$\lambda$ = $\lam
 $\lambda$ est appelée assignation des valeurs aux variables
 
 *N.B: on définit donc des classes de vérités et non une vérité unique*
-Ainsi ||$\top$||$\lambda = vrai et ||$\bot$||$\lambda = faux qqsoit $\lambda$
+Ainsi ||$\top$||$\lambda$ = vrai et ||$\bot$||$\lambda$ = faux qqsoit $\lambda$
 
   * Constructeurs: $\wedge \vee$ => <=> $\neq$
     ||$\wedge \phi \psi$||$\lambda$ est vrai ssi ||$\phi$||$\lambda$ est vrai et ||$\psi$||$\lambda$ est vrai
@@ -67,8 +67,8 @@ On dit que $\phi$ et $\psi$ $\in$ F0 sont sémantiquement équivalentes si
 ||$\phi$||$\lambda$ = ||$\psi$||$\lambda$, on note ||$\phi$||$\lambda$ $\equiv$ ||$\psi$||$\lambda$
 
 ## Broccoli-logic
-  Une broccoli-logic est toute logique dans laquelle quel que soit $\clubsuit$ 
+  Une broccoli-logic est toute logique dans laquelle quel que soit $\clubsuit$
 connecteur, on a ||$\clubsuit \phi \psi$||$\lambda$ = vrai ssi ||$\phi$||$\lambda$ = vrai
-broccoli ||$\psi||$\lambda = vrai
+broccoli ||$\psi$||$\lambda$ = vrai
 
 Prop: Logique F0 est une broccoli-logique.
