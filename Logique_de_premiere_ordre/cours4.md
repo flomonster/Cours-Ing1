@@ -29,15 +29,14 @@ x = y est une relation de congruence et n'est donc pas forcément vrai. Elle est
 *Théorème*: On peut assimiler par correspondance bijective une relation k d'équivalence
 sur E à une partition de E.
 
-*Définition*:(partition) Soit $\Omega$ un univers. On appelle partition de cet univers
-une famille d'ensemble / événements (Ai), i $\in$ I vérifiant:
-$\cup$Ai = $\Omega$; $\forall$ i $\notequal$ j, Ai $\cap$ Aj = $\varnothing$; I = ensemble ordonné
+*Définition*:(partition) Soit $\Omega$ un univers. On appelle partition de cet univers une famille d'ensemble / événements (Ai), i $\in$ I vérifiant:
+$\cup$Ai = $\Omega$; $\forall$ i ≠ j, Ai $\cap$ Aj = $\varnothing$; I = ensemble ordonné
 
 Considérons (Ai) comme partition de E, on définit sur E la relation R par xRy $\Leftrightarrow$
 
 ## Reflexivité
 
-Soit x $\in$ E, on a $\cup$Ai = E donc x $\in$ E $\Leftrightarrow$ x $\in$ $\cup$Ai $\Leftrightarrow$ $\exists$ i $\in$ I
-x $\in$ Ai d'où xRx $\Leftrightarrow$ $\exists$ I $\in$ I x $\in$ Ai $\land$ x $\in$ Ai $\equiv$ $\exists$ i $\in$ I x $\in Ai
+Soit x $\in$ E, on a $\cup$ Ai = E donc x $\in$ E $\Leftrightarrow$ x $\in$ $\cup$Ai $\Leftrightarrow$ $\exists$ i $\in$ I
+x $\in$ Ai d'où xRx $\Leftrightarrow$ $\exists$ I $\in$ I x $\in$ Ai $\land$ x $\in$ Ai $\equiv$ $\exists$ i $\in$ I x $\in$ Ai
 
 Symmetrie dans F0, A $\equiv$ A or A $\land$ B $\equiv$ B $\land$ A, on pose A = x $\in$ Ai et B = y $\in$ Ai
