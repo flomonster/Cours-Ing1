@@ -4,6 +4,7 @@ author: [Amsallem Florian]
 date: 2017-11-08
 header-includes:
   - \usepackage{fourier}
+  - \usepackage{fontspec}
 ...
 
 # Logique
@@ -40,7 +41,7 @@ On se donne:
 On remarque:
 
 1. $\implies$ n'est pas associative
-1. $P \implies (Q \implies P) est une tautologie$
+1. $P \implies (Q \implies P)$ est une tautologie
 
 Cette tautologie s'appelle Loi de Pierce
 
@@ -53,7 +54,7 @@ Cette tautologie s'appelle Loi de Pierce
 
 $\varphi \equiv \Psi$ si est seulement si $\varphi \iff \Psi$ tautologie.
 
-\danger Ne se generalise pas pour toutes les logiques.
+⚠ Ne se generalise pas pour toutes les logiques.
 
 La logique d'ordre 0 est **complete** du a cette propriete de completude.
 
@@ -72,9 +73,9 @@ Donnons les paradigmes de $\mathcal{R}$.
     * $x \mathcal{R} y$ si et seulement si $\varphi(x, y)$ est verifer avec
 $\varphi$ formule logique.
 
-Ex1: (Type Integer) $x \mathcal{R} y$ lorsque $\exists n$ integer $x = y + n\\$
+Ex1: (Type Integer) $x \mathcal{R} y$ lorsque $\exists n$ integer $x = y + n$
 Ex2: (Sur les complexes $\mathbb{C}$ $x \mathcal{R} w$ lorsque $|z| = \frac{1}{1 + w^2}$
-$\land w \neq 0 \land w^2 \neq -1\\$
+$\land w \neq 0 \land w^2 \neq -1$
 
 * Definition ensembliste
 * Definition par fonction booleene:
@@ -89,9 +90,9 @@ $s_1, s_2$ forment une arrete lorsque $s_1 \mathcal{R} s_2$.
 Les **relations d'equivalences** sont des relations binaires particulieres.
 
 1. Reflexivite: $\forall x:\mathcal{T} \mathcal{R} x$ (Dans le domaine $\mathcal{T}$ considere)
-1. Symetrique: $\forall x:\mathcal{T} \forall y:\mathcal{T}\\$ $x \mathcal{R} y \iff$
+1. Symetrique: $\forall x:\mathcal{T} \forall y:\mathcal{T}$ $x \mathcal{R} y \iff$
 $y \mathcal{R} x$
-1. Transitivite: $\forall x: \mathcal{T} \forall y: \mathcal{T} \forall z: \mathcal{T}\\$
+1. Transitivite: $\forall x: \mathcal{T} \forall y: \mathcal{T} \forall z: \mathcal{T}$
 $(x \mathcal{R} y \land y \mathcal{R} z) \implies x \mathcal{R} z$
 
 Ex: L'egalite est une equivalence naturelle.
@@ -113,7 +114,7 @@ Il y a donc un probleme semantique (syntaxe).
 
 Regles deductives:
 
-* Modus ponens $A \land (A \implies B) donc B$
+* Modus ponens $A \land (A \implies B)$ donc B
 * Modus tolens
 * Syllogisme
 * Sophisme (A pour but de convaincre les gens, peut importe si c'est vrai ou faux)

@@ -3,7 +3,6 @@
 *.~
 
 # Objs
-*.pdf
 *.log
 *.out
 *.aux
@@ -12,3 +11,6 @@
 # Floobits
 *.floo
 *.flooignore
+
+# Unignore pdf
+!.pdf

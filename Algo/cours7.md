@@ -63,7 +63,7 @@ Impact de la strategie de realloc sur le cout de `insert()`.
 * `insert()` coute $\mathcal{O}(n)$ si appel a realloc.
 * `insert()` coute $\Theta(1)$ pour les `3999` suivant.
 
-Sur une longue sequence d'insert le coup moyen est
+Sur une longue sequence d\'insert le coup moyen est
 $\frac{\mathcal{O}(n) \times 1 + \Theta(1) + 3999}{4000}$
 $= \mathcal{O}(n) + \Theta(1) = \mathcal{O}(n)$
 
@@ -71,7 +71,7 @@ On appelle cela la **complexitee amortie** de insert.
 
 ### Strategie 3
 
-`v->capacity *= 2` (C'est un peu violent)
+`v->capacity *= 2` (C\'est un peu violent)
 
 * `insert()` coute $\mathcal{O}(n)$ lors d'une realloc.
 * `insert()` coute $\Theta(1)$ lors des `n - 1` suivant.
@@ -82,8 +82,6 @@ $\frac{1 \times \mathcal{O}(n) + (n - 1) \mathcal{O}(n)}{n}$
 $= \mathcal{O}(1) + \Theta(1) = \Theta(1)$
 
 Insert en temps constant amorti.
-
-\newpage
 
 ## CountingSort
 
@@ -131,15 +129,15 @@ BucketSort(A, n)
 ```
 
 Si on a de la chance $\forall i, n_i = 1$ dans ce cas favorable BuchetSort est
-en $\mathcal{O}(n) + \displaystyle\sum_{i=0}^{n-1} \mathcal{O}(1)\\$
-$= \Theta(n) + \mathcal{O}(n) = \Theta(n)$
+en
+$\mathcal{O}(n) + \displaystyle\sum_{i=0}^{n-1} \mathcal{O}(1)= \Theta(n) + \mathcal{O}(n) = \Theta(n)$
 
-Si on n'a pas de chance $\exists j$ tq $n_j = n$ et $n_i = 0$ ssi $i \neq j\\$
-$\Theta(n) + \displaystyle\sum_{i=0}^{n-1} \mathcal{O}(n^2_i) = \Theta(n) + \mathcal{O}(n^2_j)\\$
+Si on na pas de chance $\exists j$ tq $n_j = n$ et $n_i = 0$ ssi $i \neq j$
+$\Theta(n) + \displaystyle\sum_{i=0}^{n-1} \mathcal{O}(n^2_i) = \Theta(n) + \mathcal{O}(n^2_j)$
 $\Theta(n) + \mathcal{O}(n^2) = \mathcal{O}(n^2)$
 
 on a `n` valeurs (donc `n` bucket) choisie uniformement dans $[0, 1[$
-la proba qu'une valeur tombe dans un sceaux est $\frac{1}{n}$
+la proba quune valeur tombe dans un sceaux est $\frac{1}{n}$
 
 $n_i=$ nombre de valeur dans le sceaux `i`.
 
@@ -152,10 +150,10 @@ Pour $(n_i = x) = \left(
 
 Loi binomiale avec $p = \frac{1}{n}$
 
-$E[n_i] = n \times \frac{1}{n} = 1\\$
-$Var[n_i] = n \times \frac{1}{n}(1 - \frac{1}{n}) = 1 - \frac{1}{n}\\$
-$E[n_i^2] = E[n_i]^2 + Var[n_i] = 1 + 1 - \fracn{1}{n}\\$
-$E[T(n)] = E[\Theta(n) + \displaystyle\sum \mathcal{O}(n_i^2)\\$
+$E[n_i] = n \times \frac{1}{n} = 1$
+$Var[n_i] = n \times \frac{1}{n}(1 - \frac{1}{n}) = 1 - \frac{1}{n}$
+$E[n_i^2] = E[n_i]^2 + Var[n_i] = 1 + 1 - \frac{1}{n}$
+$E[T(n)] = E[\Theta(n) + \displaystyle\sum \mathcal{O}(n_i^2)$
 $=\Theta(n) + \mathcal{O}(\displaystyle\sum_{i=j}^{n-1} E[n_i^2])$
 
-// A complete ;(
+// A compléter

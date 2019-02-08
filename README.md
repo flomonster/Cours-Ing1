@@ -11,13 +11,19 @@ markdown.
 Ubuntu:
 
 ```
-apt install texlive pandoc
+$ apt install texlive pandoc
 ```
 
 Archlinux:
 
 ```
-pacman -S texlive-core pandoc
+$ pacman -S texlive-core pandoc
+```
+
+Mac:
+
+```
+$ brew install pandoc mactex
 ```
 
 Conseil vous pouvez utiliser **HackMD** (voir ci-dessous) pour compiler en
